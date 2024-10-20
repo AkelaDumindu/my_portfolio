@@ -4,52 +4,52 @@ import SkillCard from './SkillCard';
 
 const skillItem = [
     {
-      imgSrc: 'src/assets/images/react.png',
+      imgSrc: '/images/react.png',
       label: 'React',
       desc: 'Framework'
     },
     {
-      imgSrc: 'src/assets/images/flutter.png',
+      imgSrc: '/images/flutter.png',
       label: 'Flutter',
       desc: 'Framework'
     },
     {
-      imgSrc: 'src/assets/images/js.png',
+      imgSrc: '/images/js.png',
       label: 'JavaScript',
       desc: 'Interaction'
     },
     {
-      imgSrc: 'src/assets/images/node.jpeg',
+      imgSrc: '/images/node.jpeg',
       label: 'NodeJS',
       desc: 'Web Server'
     },
     {
-        imgSrc: 'src/assets/images/spring.png',
+        imgSrc: '/images/spring.png',
         label: 'Spring Boot',
         desc: 'Java Framework'
       },
     {
-      imgSrc: 'src/assets/images/java.png',
+      imgSrc: '/images/java.png',
       label: 'java',
       desc: 'Progrmming Language'
     },
     {
-      imgSrc: 'src/assets/images/mongo.jpeg',
+      imgSrc: '/images/mongo.jpeg',
       label: 'MongoDB',
       desc: 'Database'
     },
     {
-      imgSrc: 'src/assets/images/angular.jpeg',
+      imgSrc: '/images/angular.jpeg',
       label: 'Angular',
       desc: 'Framework'
     },
     {
-      imgSrc: 'src/assets/images/laravel.svg',
+      imgSrc: '/images/laravel.svg',
       label: 'laravel',
       desc: 'PHP Framework'
     },
     {
-        imgSrc: 'src/assets/images/php.jpeg',
+        imgSrc: '/images/php.jpeg',
         label: 'PHP',
         desc: 'Programming Language'
       },
