@@ -1,6 +1,6 @@
-import About from './components/about'; // Correct import if file is named "About.jsx"
 import Header from "./components/header";
 import Hero from "./components/Hero";
+import MyAbout from './components/MyAbout';
 import Skill from "./components/Skill";
 
 
@@ -10,7 +10,7 @@ const App = ()=>{
     <Header/>
     <main>
       <Hero/>
-      <About />
+      <MyAbout />
       <Skill />
     </main>
   </>
