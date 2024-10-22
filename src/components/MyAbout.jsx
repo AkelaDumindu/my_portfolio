@@ -10,7 +10,7 @@ const aboutItems = [
       number: 10
     }
   ];
-const About = () => {
+const MyAbout = () => {
   return (
     <section id='about' className='section'>
         <div className="container">
@@ -38,4 +38,4 @@ const About = () => {
   )
 }
 
-export default About;
+export default MyAbout;
