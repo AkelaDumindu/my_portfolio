@@ -1,4 +1,3 @@
-import React from 'react'
 import PropTypes from 'prop-types'
 
 const SkillCard = ({
@@ -25,7 +24,7 @@ const SkillCard = ({
 
 SkillCard.propTypes = {
     imgSrc: PropTypes.string.isRequired,
-    leabel: PropTypes.string.isRequired,
+    label: PropTypes.string.isRequired,
     desc: PropTypes.string.isRequired,
     classes: PropTypes.string
 }
