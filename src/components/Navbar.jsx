@@ -1,4 +1,4 @@
-import React, { useRef, useEffect, useState } from 'react';
+import { useRef, useEffect, useState } from 'react';
 import PropTypes from 'prop-types';
 
 const Navbar = ({ navOpen }) => {
@@ -11,14 +11,12 @@ const Navbar = ({ navOpen }) => {
     { label: 'Home', link: '#home', className: 'nav-link active' },
     { label: 'About', link: '#about', className: 'nav-link' },
     { label: 'Work', link: '#work', className: 'nav-link' },
-    { label: 'Reviews', link: '#reviews', className: 'nav-link ' },
-    { label: 'Contact', link: '#contact', className: 'nav-link md:hidden' }
+    { label: 'Reviews', link: '#reviews', className: 'nav-link' },
   ];
 
-  // Conditionally add the Contact link
-  // if (windowWidth <= 768) {
-  //   navItems.push({ label: 'Contact', link: '#contact', className: 'nav-link' });
-  // }
+  if (windowWidth <= 768) {
+    navItems.push({ label: 'Contact', link: '#contact', className: 'nav-link' });
+  }
 
   const initActiveBox = () => {
     if (lastActiveLink.current) {
