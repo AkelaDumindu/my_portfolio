@@ -3,10 +3,10 @@
 const aboutItems = [
     {
       label: 'Project done',
-      number: 45
+      number: 12
     },
     {
-      label: 'Years of experience',
+      label: 'No of Skills',
       number: 10
     }
   ];
@@ -30,7 +30,7 @@ const MyAbout = () => {
                         ))
                     }
 
-                    <img src="src\assets\fav\apple-touch-icon.png" width={30} height={30} className='ml-auto md:w-[40px] md:h-[40px]' alt="akela dumindu logo" />
+                    <img src="\images\fav\apple-touch-icon.png" width={30} height={30} className='ml-auto md:w-[40px] md:h-[40px]' alt="akela dumindu logo" />
                 </div>
             </div>
         </div>

@@ -43,7 +43,7 @@ const skillItem = [
       desc: 'Framework'
     },
     {
-      imgSrc: '/images/laravel.svg',
+      imgSrc: '/images/laravel.png',
       label: 'laravel',
       desc: 'PHP Framework'
     },
