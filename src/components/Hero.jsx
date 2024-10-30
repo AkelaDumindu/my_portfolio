@@ -1,5 +1,5 @@
-import PrimaryButton from './Primary_button';
-import OutlineButton from './Outline_button';
+import HeroFooter from "./HeroFooter";
+
 
 const Hero = () => {
   return (
@@ -15,7 +15,7 @@ const Hero = () => {
               available for work
             </div>
           </div>
-      <div className='container lg:grid md:grid-cols-1 lg:grid-cols-2 flex items-center lg:gap-10 relative'>
+      <div className='container lg:grid md:grid-cols-1  lg:grid-cols-2 flex items-center lg:gap-10 relative'>
         <div className=' mt-0 '>
 
           {/* Available for work section */}
@@ -52,17 +52,7 @@ const Hero = () => {
         </div>
       </div>
 
-      <div className='container flex items-start gap-3 mt-10 mb-5'> 
-            <PrimaryButton 
-              label={"Download CV"}
-              icon={"download"}
-            />
-            <OutlineButton 
-              href={"#about"}
-              label={"Scroll Down"}
-              icon={"arrow_downward"}
-            />
-          </div>
+      <HeroFooter />
     </section>
   );
 }

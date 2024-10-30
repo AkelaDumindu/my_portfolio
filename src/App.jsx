@@ -4,6 +4,7 @@ import MyAbout from './components/MyAbout';
 import MyProject from "./components/MyProject";
 import ParticleBack from "./components/ParticleBack";
 import Skill from "./components/Skill";
+import SkillsCarousal from "./components/SkillsCarousal";
 
 
 
@@ -21,6 +22,7 @@ const App = ()=>{
       <MyAbout />
       <Skill />
       <MyProject/>
+      <SkillsCarousal/>
     </main>
   </>
   ) 

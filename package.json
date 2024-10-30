@@ -12,9 +12,11 @@
   "dependencies": {
     "@tsparticles/all": "^3.5.0",
     "@tsparticles/react": "^3.0.0",
+    "framer-motion": "^11.11.10",
     "prop-types": "^15.8.1",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
+    "react-fast-marquee": "^1.6.5",
     "react-tsparticles": "^2.12.2",
     "tailwind-scrollbar": "^3.1.0",
     "tsparticles": "^3.5.0"
