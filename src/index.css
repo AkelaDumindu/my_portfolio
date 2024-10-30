@@ -110,3 +110,13 @@ body{
 .btn-outline{
   @apply h-11 bg-zinc-800 hover:bg-zinc-700 active:bg-zinc-800
 }
+
+
+#tsparticles {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1; /* Make sure it is behind other elements */
+}
