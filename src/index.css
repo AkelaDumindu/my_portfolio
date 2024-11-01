@@ -120,3 +120,49 @@ body{
   height: 100%;
   z-index: -1; /* Make sure it is behind other elements */
 }
+
+
+.perspective-3d {
+  perspective: 1000px;
+}
+
+@keyframes fadeShakeIn {
+  0% {
+    opacity: 0;
+    transform: translateX(50px) rotateY(-30deg);
+  }
+  50% {
+    opacity: 1;
+    transform: translateX(0) rotateY(0);
+  }
+  70% {
+    transform: translateX(-10px) rotateY(10deg);
+  }
+  100% {
+    transform: translateX(0) rotateY(0);
+  }
+}
+
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+.fade-shake-in {
+  animation: fadeShakeIn 1.5s ease forwards;
+}
+
+.fade-out {
+  animation: fadeOut 1.5s ease forwards;
+}
+
+
+
+
+
+
+
