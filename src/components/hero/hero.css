@@ -1,0 +1,99 @@
+.me {
+  border-radius: 30px;
+  display: block;
+  margin-bottom: 30px;
+  margin-top: 56px;
+}
+.left-sidebar .sidebar-header {
+  margin-bottom: 65px;
+}
+
+/* .designation-name {
+  height: 100px;
+} */
+.designation {
+  text-align: center;
+  color: #fff;
+  font-size: 50px;
+  width: 100%;
+  font-weight: bolder;
+}
+.left-sidebar h2 {
+  font-size: 24px;
+  color: #fff;
+  text-align: center;
+  font-weight: 300;
+}
+.left-sidebar .address {
+  margin-bottom: 30px;
+}
+.left-sidebar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.left-sidebar .copyright {
+  font-size: 14px;
+  text-align: center;
+}
+.left-sidebar .social-profile {
+  gap: 8px;
+  margin-bottom: 118px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+.left-sidebar .social-profile li a {
+  display: block;
+  width: 60px;
+  height: 60px;
+  line-height: 46px;
+  text-align: center;
+  border: 2px solid #565656;
+  border-radius: 50%;
+  color: #999999;
+  font-size: 20px;
+  transition: 0.3s;
+}
+.left-sidebar .social-profile li a:hover {
+  color: var(--primary_color);
+  border-color: var(--primary_color);
+}
+.left-sidebar .theme-btn {
+  width: 100%;
+  margin: 10px 0;
+}
+
+.theme-btn {
+  background: #38bdf8;
+  color: #000000;
+  display: block;
+  text-align: center;
+  padding: 11px 58px 10px 58px;
+  display: inline-flex;
+  align-items: center;
+  border-radius: 30px;
+  justify-content: center;
+  text-transform: uppercase;
+  border: none;
+  transition: 0.3s;
+  cursor: pointer;
+  border: 2px solid white;
+}
+.theme-btn i {
+  font-size: 24px;
+  margin-right: 10px;
+  display: block;
+  margin-bottom: 3px;
+}
+.theme-btn:hover {
+  background: none;
+  color: #fff;
+}
+
+.hero-theme {
+  width: 75%;
+}

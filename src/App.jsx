@@ -1,6 +1,8 @@
-import Hero from "./components/Hero";
+// import Hero from "./components/hero/Hero";
+import Hero from './components/hero/Hero';
 import MyAbout from './components/MyAbout';
 import MyProject from "./components/MyProject";
+import Navbar from './components/nav/Navbar';
 import ParticleBack from "./components/ParticleBack";
 import JobRole from "./components/role/JobRole";
 import Skill from "./components/Skill";
@@ -19,6 +21,8 @@ const App = ()=>{
     
     <main>
     <JobRole/>
+      {/* <Hero/> */}
+      <Navbar/>
       <Hero/>
       <MyAbout />
       <Skill />
