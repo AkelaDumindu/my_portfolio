@@ -1,0 +1,12 @@
+.job-role-text{
+  @apply text-5xl leading-tight font-semibold lg:text-[55px] lg:leading-[1.15]
+  max-w-max text-sky-400;
+  -webkit-background-clip: text;
+}
+
+/* .job-role {
+  
+  height: 100px;
+  display: flex;
+  align-items: center;
+} */
