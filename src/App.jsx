@@ -1,4 +1,5 @@
-import Hero from "./components/Hero";
+// import Hero from "./components/hero/Hero";
+import Hero from './components/hero/Hero';
 import MyAbout from './components/MyAbout';
 import MyProject from "./components/MyProject";
 import ParticleBack from "./components/ParticleBack";
@@ -19,6 +20,7 @@ const App = ()=>{
     
     <main>
     <JobRole/>
+      {/* <Hero/> */}
       <Hero/>
       <MyAbout />
       <Skill />
