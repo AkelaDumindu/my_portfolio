@@ -12,12 +12,37 @@ const Navbar = () => {
 
   return (
     <nav>
-      <a href="#" onClick={() => setActiveNav('#')} className={activeNav === '#' ? 'active' : ''}><IoHome /></a>
-      <a href="#about" onClick={() => setActiveNav('#about')} className={activeNav === '#about' ? 'active' : ''}><FaUserAlt /></a>
-      <a href="#skills" onClick={() => setActiveNav('#skills')} className={activeNav === '#skills' ? 'active' : ''}><HiMiniCheckBadge /></a>
-      <a href="#portfolio" onClick={() => setActiveNav('#portfolio')} className={activeNav === '#portfolio' ? 'active' : ''}><RiSlideshow2Fill /></a>
-      <a href="#awards" onClick={() => setActiveNav('#awards')} className={activeNav === '#awards' ? 'active' : ''}><IoMdTrophy /></a>
-      <a href="#contact" onClick={() => setActiveNav('#contact')} className={activeNav === '#contact' ? 'active' : ''}><IoMail /></a>
+      <a href="#" 
+      onClick={() => setActiveNav('#')} 
+      className={activeNav === '#' ? 'active' : ''}>
+        <IoHome />
+        </a>
+      <a 
+      href="#about" 
+      onClick={() => setActiveNav('#about')}
+      className={activeNav === '#about' ? 'active' : ''}>
+        <FaUserAlt />
+        </a>
+      <a href="#skills" 
+      onClick={() => setActiveNav('#skills')} 
+      className={activeNav === '#skills' ? 'active' : ''}>
+        <HiMiniCheckBadge />
+        </a>
+      <a href="#portfolio" 
+      onClick={() => setActiveNav('#portfolio')} 
+      className={activeNav === '#portfolio' ? 'active' : ''}>
+        <RiSlideshow2Fill />
+        </a>
+      <a href="#awards"
+       onClick={() => setActiveNav('#awards')} 
+       className={activeNav === '#awards' ? 'active' : ''}>
+        <IoMdTrophy />
+        </a>
+      <a href="#contact" 
+      onClick={() => setActiveNav('#contact')} 
+      className={activeNav === '#contact' ? 'active' : ''}>
+        <IoMail />
+        </a>
     </nav>
   );
 };

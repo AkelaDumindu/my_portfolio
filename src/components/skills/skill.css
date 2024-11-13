@@ -1,0 +1,9 @@
+.skill-section {
+  width: 75%;
+}
+
+.skill-card-outer {
+  width: 120px;
+  height: 120px;
+  flex-direction: column;
+}
