@@ -1,0 +1,87 @@
+.portfolio-section {
+  width: 75%;
+  border: 1px solid white;
+}
+
+.portfolio-outer {
+  border: 1px solid red;
+}
+
+.card-outer {
+  width: 100%;
+  border: 1px solid red;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-inner {
+  width: 90%;
+  border-radius: 30px;
+  border: 1px solid white;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.card-inner:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+  border-color: skyblue;
+  cursor: pointer;
+}
+
+.card-inner img {
+  width: 100%;
+  border-radius: 30px;
+  margin: 20px 0;
+}
+
+.card-inner h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.card-inner p {
+  text-align: justify;
+}
+
+/* for icon  */
+
+.icon-container {
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  margin-top: 10px;
+}
+
+.icons-wrapper {
+  display: flex; /* Align icons horizontally */
+  gap: 20px; /* Add spacing between icons */
+}
+
+.icon-wrapper {
+  position: relative;
+  display: inline-block;
+}
+
+.icon-text {
+  visibility: hidden; /* Hide text by default */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.75);
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 12px;
+  opacity: 0;
+  transition: opacity 0.3s ease, visibility 0s 0.3s;
+}
+
+.icon-wrapper:hover .icon-text {
+  visibility: visible; /* Show text when icon is hovered */
+  opacity: 1; /* Make text visible */
+  transition: opacity 0.3s ease;
+}

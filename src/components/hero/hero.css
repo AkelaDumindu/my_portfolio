@@ -60,7 +60,7 @@
 }
 .left-sidebar .social-profile li a:hover {
   color: var(--primary_color);
-  border-color: var(--primary_color);
+  border-color: skyblue;
 }
 .left-sidebar .theme-btn {
   width: 100%;

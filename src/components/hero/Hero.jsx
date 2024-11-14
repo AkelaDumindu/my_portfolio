@@ -20,7 +20,7 @@ const Hero = () => {
               <span className="designation text-4xl">Akela Dumindu</span>
             </div>
             <figure className='me w-full max-w-[480px] ml-auto bg-gradient-to-t from-sky-400 via-25% via-sky-400/40 to-65% rounded-[60px] overflow-hidden'>
-                    <img src="../public/images/my_photo-1.png" width={300} height={400} alt="my photo" className='w-full'/>
+                    <img src="../images/my_photo-1.png" width={300} height={400} alt="my photo" className='w-full'/>
                 </figure>
             <h2 className="email">akeladumindu2000@gmail.com</h2>
             <h2 className="email">Base in Galle, LK</h2>
@@ -28,7 +28,7 @@ const Hero = () => {
             <p className="copyright">&copy; 2024 Akela. All Rights Reserved</p>
             <ul className="social-profile">
               <li>
-                <a href="https://www.linkedin.com/in/hirusha-fernando-379a85194/" target="_blank" rel="noopener noreferrer">
+                <a href="" target="_blank" rel="noopener noreferrer">
                   <i className="lab la-linkedin-in"></i>
                 </a>
               </li>
@@ -38,7 +38,7 @@ const Hero = () => {
                 </a>
               </li>
               <li>
-                <a href="https://github.com/HRS0986" target="_blank" rel="noopener noreferrer">
+                <a href="" target="_blank" rel="noopener noreferrer">
                   <i className="lab la-github"></i>
                 </a>
               </li>
@@ -46,7 +46,7 @@ const Hero = () => {
             </ul>
 
            
-            <a href="assets/Hirusha_Fernando_CV.pdf" className="theme-btn" download>
+            <a href="" className="theme-btn" download>
               <i className="las la-download"></i> Download CV
             </a>
           </div>
