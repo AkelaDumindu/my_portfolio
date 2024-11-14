@@ -1,0 +1,47 @@
+.portfolio-section {
+  width: 75%;
+  border: 1px solid white;
+}
+
+.portfolio-outer {
+  border: 1px solid red;
+}
+
+.card-outer {
+  width: 100%;
+  border: 1px solid red;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-inner {
+  width: 90%;
+  border-radius: 30px;
+  border: 1px solid white;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.card-inner:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+  border-color: skyblue;
+  cursor: pointer;
+}
+
+.card-inner img {
+  width: 100%;
+  border-radius: 30px;
+  margin: 20px 0;
+}
+
+.card-inner h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.card-inner p {
+  text-align: justify;
+}
