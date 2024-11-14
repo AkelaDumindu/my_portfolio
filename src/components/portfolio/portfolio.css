@@ -45,3 +45,43 @@
 .card-inner p {
   text-align: justify;
 }
+
+/* for icon  */
+
+.icon-container {
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  margin-top: 10px;
+}
+
+.icons-wrapper {
+  display: flex; /* Align icons horizontally */
+  gap: 20px; /* Add spacing between icons */
+}
+
+.icon-wrapper {
+  position: relative;
+  display: inline-block;
+}
+
+.icon-text {
+  visibility: hidden; /* Hide text by default */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.75);
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 12px;
+  opacity: 0;
+  transition: opacity 0.3s ease, visibility 0s 0.3s;
+}
+
+.icon-wrapper:hover .icon-text {
+  visibility: visible; /* Show text when icon is hovered */
+  opacity: 1; /* Make text visible */
+  transition: opacity 0.3s ease;
+}
