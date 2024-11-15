@@ -38,29 +38,35 @@
 }
 .left-sidebar .social-profile {
   gap: 8px;
-  margin-bottom: 118px;
+  margin-top: 30px;
+  margin-bottom: 30px;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-  margin-bottom: 30px;
-  margin-top: 30px;
 }
+
+.left-sidebar .social-profile li {
+  list-style: none; /* Optional: remove bullet points */
+}
+
 .left-sidebar .social-profile li a {
-  display: block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 60px;
   height: 60px;
-  line-height: 46px;
-  text-align: center;
   border: 2px solid #565656;
   border-radius: 50%;
   color: #999999;
-  font-size: 20px;
+  font-size: 24px; /* Increase or decrease to adjust icon size */
   transition: 0.3s;
 }
 .left-sidebar .social-profile li a:hover {
-  color: var(--primary_color);
-  border-color: skyblue;
+  color: rgba(56, 189, 248);
+  border-color: rgba(56, 189, 248); /* Purple border on focus */
+  outline: none;
+  box-shadow: 0 0 4px rgba(56, 189, 248);
 }
 .left-sidebar .theme-btn {
   width: 100%;
@@ -92,8 +98,17 @@
 .theme-btn:hover {
   background: none;
   color: #fff;
+  border-color: rgba(56, 189, 248); /* Purple border on focus */
+  box-shadow: 0 0 4px rgba(56, 189, 248);
 }
 
 .hero-theme {
   width: 75%;
+}
+
+.mhy-icon {
+  font-size: 2.5rem; /* Adjust icon size (use rem or px as needed) */
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

@@ -70,8 +70,8 @@ const Portfolio = () => {
     <section className="section">
       <div className="container">
         <div className="portfolio-section">
-          <div className="flex flex-col items-center">
-            <h2 className="headline-2">Tech Stack</h2>
+          <div className="flex flex-col items-center mb-5">
+            <h2 className="headline-2">Portfolio</h2>
           </div>
           <div className="portfolio-outer grid md:grid-cols-1 lg:grid-cols-2 gap-4">
           {portfolioData.map((project, index) => (
