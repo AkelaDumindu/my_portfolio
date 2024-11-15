@@ -16,13 +16,13 @@ const PortfolioCard = (props) => {
           <p>{props.description}</p>
         </div>
         <div className="icon-container">
-          {/* Render each icon passed as a prop */}
+          {/* Render each icon with its alt text */}
           {props.icons && (
             <div className="icons-wrapper">
-              {props.icons.map((icon, index) => (
+              {props.icons.map((iconObj, index) => (
                 <div key={index} className="icon-wrapper">
-                  {icon}
-                  <span className="icon-text">{icon.props.alt || 'Icon'}</span>
+                  {iconObj.component}
+                  <span className="icon-text">{iconObj.alt}</span>
                 </div>
               ))}
             </div>
@@ -39,7 +39,12 @@ PortfolioCard.propTypes = {
   label: PropTypes.string.isRequired,
   title: PropTypes.string.isRequired,
   description: PropTypes.string.isRequired,
-  icons: PropTypes.arrayOf(PropTypes.element),  // Array of React elements (icons)
+  icons: PropTypes.arrayOf(
+    PropTypes.shape({
+      component: PropTypes.element.isRequired,
+      alt: PropTypes.string.isRequired,
+    })
+  ), 
 };
 
 export default PortfolioCard;
