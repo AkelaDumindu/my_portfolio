@@ -1,4 +1,7 @@
 import './hero.css';
+import { FaGithub } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa6";
+import { FaInstagramSquare } from "react-icons/fa";
 
 const Hero = () => {
   return (
@@ -29,17 +32,18 @@ const Hero = () => {
             <ul className="social-profile">
               <li>
                 <a href="" target="_blank" rel="noopener noreferrer">
-                  <i className="lab la-linkedin-in"></i>
+                <span className='mhy-icon'><FaGithub size={30}/></span>
                 </a>
               </li>
               <li>
                 <a href="" target="_blank" rel="noopener noreferrer">
-                  <i className="lab la-stack-overflow"></i>
+                <span className='mhy-icon'><FaLinkedin size={30}/></span>
                 </a>
               </li>
               <li>
                 <a href="" target="_blank" rel="noopener noreferrer">
-                  <i className="lab la-github"></i>
+                  
+                  <span className='mhy-icon'><FaInstagramSquare  size={30}/></span>
                 </a>
               </li>
               

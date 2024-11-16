@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
+
+.contact-outer {
+  width: 75%;
+  /* border: 1px solid red; */
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; */
+}
+
+/* Form container with glass effect */
+#contactForm {
+  width: 100%;
+  max-width: 550px;
+  /* margin-left: 10rem; */
+  padding: 2rem;
+  background-color: rgba(255, 255, 255, 0.1); /* Semi-transparent background */
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  font-family: "Poppins", sans-serif;
+  backdrop-filter: blur(10px); /* Adds blur effect to the background */
+  -webkit-backdrop-filter: blur(10px); /* Safari support */
+  border: 1px solid rgba(255, 255, 255, 0.2); /* Border with slight transparency */
+}
+
+/* .form-section {
+  width: 100%;
+} */
+
+/* Form labels */
+#contactForm span {
+  font-size: 1rem;
+  font-weight: 500;
+  color: white;
+  display: block;
+  margin-bottom: 0.5rem;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Input and textarea fields with glass effect */
+.field {
+  width: 100%;
+  padding: 0.75rem;
+  margin-bottom: 1rem;
+  border-radius: 6px;
+  border: 1px solid rgba(255, 255, 255, 0.3); /* Slightly transparent border */
+  font-size: 1rem;
+  color: #c9c8c8;
+  box-sizing: border-box;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  font-family: "Poppins", sans-serif;
+  background-color: rgba(
+    255,
+    255,
+    255,
+    0.059
+  ); /* Transparent glass-like background */
+  backdrop-filter: blur(10px); /* Adds blur effect to the background */
+  -webkit-backdrop-filter: blur(10px); /* For Safari support */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Adds subtle shadow for depth */
+}
+
+/* Field focus effect */
+.field:focus {
+  border-color: rgba(56, 189, 248); /* Purple border on focus */
+  outline: none;
+  box-shadow: 0 0 4px rgba(56, 189, 248); /* Adds subtle purple shadow on focus */
+}
+
+/* Textarea field customization */
+textarea.field {
+  min-height: 120px;
+  resize: vertical;
+}
+
+/* Submit button styling */
+/* Submit button with glass effect */
+.submit {
+  width: 100%;
+  padding: 0.75rem;
+  /* background-color: rgba(
+    255,
+    255,
+    255,
+    0.2
+  );  */
+
+  background-color: rgba(56, 189, 248);
+  color: #fff;
+  border: none;
+  border-radius: 12px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  font-family: "Poppins", sans-serif;
+  backdrop-filter: blur(10px); /* Adds the glass blur effect */
+  -webkit-backdrop-filter: blur(10px); /* For Safari support */
+  border: 1px solid rgba(255, 255, 255, 0.3); /* Slight border with transparency */
+}
+
+/* Submit button hover effect */
+.submit:hover {
+  background-color: rgba(255, 255, 255, 0.9); /* Slightly darker on hover */
+  /* box-shadow: 0 0 10px rgba(255, 255, 255, 0.9);  */
+  color: #000; /* Optional: Lighten text color on hover */
+}
+
+/* Captcha span */
+#captcha {
+  display: block;
+  margin-bottom: 1.5rem;
+}
+
+/* Contact form section layout */
+.contact {
+  margin-left: 5rem;
+  margin-right: 5rem;
+  padding: 1rem;
+}

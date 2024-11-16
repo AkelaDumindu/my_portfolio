@@ -1,15 +1,12 @@
 .portfolio-section {
-  width: 75%;
-  border: 1px solid white;
+  width: 100%;
+  max-width: 75%;
 }
 
-.portfolio-outer {
-  border: 1px solid red;
-}
+
 
 .card-outer {
   width: 100%;
-  border: 1px solid red;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -17,7 +14,8 @@
 }
 
 .card-inner {
-  width: 90%;
+  width: 100%;
+  max-width: 90%;
   border-radius: 30px;
   border: 1px solid white;
   padding: 20px;
