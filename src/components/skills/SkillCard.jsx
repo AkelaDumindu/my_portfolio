@@ -10,7 +10,7 @@ const SkillCard = ({
   return (
     <div className={'skill-card-outer  justify-evenly flex items-center gap-4' + classes}>
         <figure className='items-center'>
-            <img src={imgSrc} width={32} height={32} alt={label} />
+            <img src={imgSrc} width={50} height={50} alt={label} />
         </figure>
 
         <div>

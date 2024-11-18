@@ -3,56 +3,87 @@ import './skill.css';
 
 
 const skillItem = [
-    {
-      imgSrc: '/images/react.png',
+  {
+    imgSrc: '/images/skillImages/c.png',
+    label: 'C',
+    desc: 'Programming Language'
+  },
+    { 
+      imgSrc: '/images/skillImages/react.png',
       label: 'React',
       desc: 'Framework'
     },
     {
-      imgSrc: '/images/flutter.png',
+      imgSrc: '/images/skillImages/flutter.png',
       label: 'Flutter',
       desc: 'Framework'
     },
     {
-      imgSrc: '/images/js.png',
+      imgSrc: '/images/skillImages/js.png',
       label: 'JavaScript',
       desc: 'Interaction'
     },
     {
-      imgSrc: '/images/node.jpeg',
+      imgSrc: '/images/skillImages/nodeJs.png',
       label: 'NodeJS',
       desc: 'Web Server'
     },
+
     {
-        imgSrc: '/images/spring.png',
+      imgSrc: '/images/skillImages/ts.png',
+      label: 'PHP',
+      desc: 'Programming Language'
+    },
+    {
+        imgSrc: '/images/skillImages/spring boot.png',
         label: 'Spring Boot',
         desc: 'Java Framework'
       },
     {
-      imgSrc: '/images/java.png',
+      imgSrc: '/images/skillImages/java.png',
       label: 'java',
       desc: 'Progrmming Language'
     },
     {
-      imgSrc: '/images/mongo.jpeg',
+      imgSrc: '/images/skillImages/mongodb.png',
       label: 'MongoDB',
       desc: 'Database'
     },
     {
-      imgSrc: '/images/angular.jpeg',
+      imgSrc: '/images/skillImages/angular.png',
       label: 'Angular',
       desc: 'Framework'
     },
     {
-      imgSrc: '/images/laravel.png',
+      imgSrc: '/images/skillImages/laravel.png',
       label: 'laravel',
       desc: 'PHP Framework'
     },
     {
-        imgSrc: '/images/php.jpeg',
+        imgSrc: '/images/skillImages/php.png',
         label: 'PHP',
+        desc: 'Programming Language',
+        
+      },
+
+      {
+        imgSrc: '/images/skillImages/python.png',
+        label: 'Tailwind',
         desc: 'Programming Language'
       },
+
+      {
+        
+          imgSrc: '/images/skillImages/tailwind.png',
+          label: 'Tailwind',
+          desc: 'Programming Language'
+        
+      },
+      {
+        imgSrc: '/images/skillImages/firebase.png',
+        label: 'Firebase',
+        desc: 'Programming Language'
+      }
   ];
 
 const Skill = () => {
