@@ -21,7 +21,7 @@ const App = ()=>{
     {/* <Header/> */}
     
     <main>
-    <JobRole/>
+    {/* <JobRole/> */}
       {/* <Hero/> */}
       <Navbar/>
       <Hero/>

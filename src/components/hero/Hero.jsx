@@ -2,18 +2,39 @@ import './hero.css';
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa6";
 import { FaInstagramSquare } from "react-icons/fa";
+import JobRole from '../role/JobRole';
 
 const Hero = () => {
   return (
-    <section id="home" className="pt-28 lg:mt-4">
+    <section id="home" className="lg:mt-4">
       <div className="container flex items-center lg:gap-10 relative">
         <div className="mt-0 hero-theme">
-          <h3 className="headline-1 max-w-[20ch] sm:max-w-[20ch] lg:max-w-[20ch] mt-0 mb-8 lg:mb-10">
+        <div className="flex flex-col items-center mb-5">
+            <h2 className="headline-2">Introduction</h2>
+          </div>
+          {/* <h3 className="headline-1 max-w-[20ch] sm:max-w-[20ch] lg:max-w-[20ch] mt-0 mb-8 lg:mb-10">
             Driven to transform ideas into impactful software solutions.
+          </h3> */}
+          <h3 className="headline-1 max-w-[20ch] sm:max-w-[20ch] lg:max-w-[20ch] ">
+            Hey, I'm Akela
           </h3>
+
+          <JobRole />
+
           <h4 className="hero-sub-profile text-[#a1a1aa]">
-            I tackle real-world challenges with robust, scalable code to bring visionary ideas to life. Let’s embark on this exciting journey together!
+          I tackle real-world challenges with robust, scalable code to bring visionary ideas to life. With a passion for innovation and a focus on delivering impactful solutions, I craft digital experiences that inspire and drive success. Fueled by creativity and a commitment to excellence, I transform challenges into opportunities. Let’s embark on this exciting journey together and turn possibilities into realities!
           </h4>
+
+          <div className="cardsett fade-in">
+              <div className="cardd">
+                <h2 className='number'>12+</h2>
+                <p className='number_description'>Projects</p>
+              </div>
+              <div className="cardd">
+                <h2 className='number'>2+</h2>
+                <p className='number_description'>Years of Experience</p>
+              </div>
+              </div>
         </div>
 
         {/* Image Section - Sidebar with fixed position */}
