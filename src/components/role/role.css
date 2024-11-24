@@ -1,12 +1,13 @@
-.job-role-text{
-  @apply text-5xl leading-tight font-semibold lg:text-[55px] lg:leading-[1.15]
+.job-role-text {
+  @apply text-5xl leading-tight font-semibold lg:text-[40px] lg:leading-[1.15]
   max-w-max text-sky-400;
   -webkit-background-clip: text;
 }
 
-/* .job-role {
-  
-  height: 100px;
-  display: flex;
-  align-items: center;
-} */
+/* Ensure no padding on .container and h1 */
+.container,
+.container h1 {
+  padding: 0 !important; /* Remove padding with !important */
+}
+
+/* You can also ensure no margin if that's an issue */
