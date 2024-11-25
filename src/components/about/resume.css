@@ -1,0 +1,39 @@
+.resumeLi {
+  width: 100%; /* w-full */
+  height: 5rem; /* h-20 (20 * 0.25rem = 5rem) */
+  background-color: rgba(0, 0, 0, 0.8); /* bg-black bg-opacity-25 */
+  font-size: 1.25rem; /* text-xl (1.25rem) */
+  color: #d1d5db; /* text-gray-300 */
+  display: flex;
+  justify-content: center; /* justify-center */
+  cursor: pointer; /* cursor-pointer */
+  transition: background-color 0.3s; /* duration-300 */
+  align-items: center; /* items-center */
+  border: 1px solid #fff; /* border-[1px] */
+  border-radius: 0; /* rounded-none */
+}
+
+.resumeLi:hover {
+  background-color: rgba(255, 255, 255, 0.4);
+  border-radius: 25px; /* hover:bg-opacity-40 */
+}
+
+.resume-ed {
+  border: 1px solid #fff; /* border-[1px] */
+  border-radius: 25px 0 0 25px; /* 25px radius on the left side */
+}
+
+.resume-v {
+  border: 1px solid #fff; /* border-[1px] */
+  border-radius: 0 25px 25px 0; /* 25px radius on the left side */
+}
+
+.click-resume {
+  border-radius: 25px;
+  border: 1px solid skyblue;
+}
+
+.resume-main {
+  background-color: rgba(0, 0, 0, 0.8);
+  border-radius: 25px;
+}
