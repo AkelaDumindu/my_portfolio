@@ -3,6 +3,7 @@ import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa6";
 import { FaInstagramSquare } from "react-icons/fa";
 import JobRole from '../role/JobRole';
+import { RxDoubleArrowDown } from "react-icons/rx";
 
 const Hero = () => {
   return (
@@ -25,8 +26,9 @@ const Hero = () => {
           I tackle real-world challenges with robust, scalable code to bring visionary ideas to life. With a passion for innovation and a focus on delivering impactful solutions, I craft digital experiences that inspire and drive success. Fueled by creativity and a commitment to excellence, I transform challenges into opportunities. Let’s embark on this exciting journey together and turn possibilities into realities!
           </h4>
 
-          <div className="cardsett fade-in">
-              <div className="cardd">
+          <div className="mt-16 grid md:grid-cols-1 lg:grid-cols-2">
+            <div className='cardsett'>
+            <div className="cardd">
                 <h2 className='number'>12+</h2>
                 <p className='number_description'>Projects</p>
               </div>
@@ -34,6 +36,17 @@ const Hero = () => {
                 <h2 className='number'>2+</h2>
                 <p className='number_description'>Years of Experience</p>
               </div>
+
+            </div>
+             <div className='scroll-card'>
+             <button 
+          className="scroll-button" 
+          onClick=""><RxDoubleArrowDown className="scroll-icon"/></button>
+             </div>
+          
+              
+
+              
               </div>
         </div>
 
