@@ -1,0 +1,14 @@
+.bgOpacity {
+  background-color: white; /* black with 40% opacity */
+}
+
+/* Container styles */
+.timeline-container {
+  margin-top: 3.5rem; /* mt-14 */
+  width: 100%; /* w-full */
+  height: 1000px; /* h-[1000px] */
+  border-left: 6px solid white; /* border-l-[6px] border-l-black border-opacity-30 */
+  display: flex;
+  flex-direction: column; /* flex-col */
+  gap: 2.5rem; /* gap-10 */
+}
