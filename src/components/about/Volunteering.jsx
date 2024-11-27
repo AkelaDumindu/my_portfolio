@@ -1,9 +1,9 @@
 import React from 'react'
 
-const Voluntiering = () => {
+const Volunteering = () => {
   return (
     <div>Voluntiering</div>
   )
 }
 
-export default Voluntiering
+export default Volunteering

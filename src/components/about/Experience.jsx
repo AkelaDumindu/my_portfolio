@@ -18,7 +18,7 @@ const Experience = () => {
         <div className="timeline-container">
           <ResumeCard
             title="Internship Trainee"
-            subTitle="Bank Of Ceylon"
+            subTitle="Bank Of Ceylon | Thalgaswala"
             year="2020 March - 2020 September"
             logo="../images/resumeImages/boc_logo.png"
           />
