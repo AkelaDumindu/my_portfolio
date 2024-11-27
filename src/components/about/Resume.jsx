@@ -2,7 +2,7 @@ import React, {  useState } from 'react'
 import Education from './Education';
 import Achievement from './Achievement';
 import Experience from "./Experience"
-import Voluntiering from "./Voluntiering"
+import Volunteering from "./Volunteering"
 import './resume.css';
 
 const Resume = () => {
@@ -78,7 +78,7 @@ const Resume = () => {
       {educationData && <Education />}
       {experienceData && <Experience />}
       {achievementData && <Achievement />}
-      {voluntieringData && <Voluntiering />}
+      {voluntieringData && <Volunteering />}
  
     </section>
   );
