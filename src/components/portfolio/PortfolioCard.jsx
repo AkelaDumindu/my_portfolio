@@ -1,50 +1,38 @@
 import React from 'react';
-import PropTypes from 'prop-types';
+import { BsGithub } from "react-icons/bs";
+import { FaGlobe } from "react-icons/fa";
+import './projectCard.css'; // Import the CSS file for styling
 
-const PortfolioCard = (props) => {
+const ProjectsCard = ({ title, des, src }) => {
   return (
-    <div className='card-outer'>
-      <div className='card-inner'>
-        <div>
-          <h1>{props.typeName}</h1>
+    <div className="project-card">
+      <div className="image-container">
+        <img
+          className="project-image"
+          src={src}
+          alt="project"
+        />
+      </div>
+      <div className="details">
+        <div className="title-container">
+          <h3 className="project-title">
+            {title}
+          </h3>
+          <div className="social-icons">
+            <span className="social-icon">
+              <BsGithub />
+            </span>
+            <span className="social-icon">
+              <FaGlobe />
+            </span>
+          </div>
         </div>
-        <div>
-          <img className='h-25' src={props.url} alt={props.label} />
-        </div>
-        <div>
-          <h2>{props.title}</h2>
-          <p>{props.description}</p>
-        </div>
-        <div className="icon-container">
-          {/* Render each icon with its alt text */}
-          {props.icons && (
-            <div className="icons-wrapper">
-              {props.icons.map((iconObj, index) => (
-                <div key={index} className="icon-wrapper">
-                  {iconObj.component}
-                  <span className="icon-text">{iconObj.alt}</span>
-                </div>
-              ))}
-            </div>
-          )}
-        </div>
+        <p className="project-description">
+          {des}
+        </p>
       </div>
     </div>
   );
-};
+}
 
-PortfolioCard.propTypes = {
-  typeName: PropTypes.string.isRequired,
-  url: PropTypes.string.isRequired,
-  label: PropTypes.string.isRequired,
-  title: PropTypes.string.isRequired,
-  description: PropTypes.string.isRequired,
-  icons: PropTypes.arrayOf(
-    PropTypes.shape({
-      component: PropTypes.element.isRequired,
-      alt: PropTypes.string.isRequired,
-    })
-  ), 
-};
-
-export default PortfolioCard;
+export default ProjectsCard;

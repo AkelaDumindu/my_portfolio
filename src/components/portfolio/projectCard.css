@@ -1,0 +1,93 @@
+/* ProjectsCard styles */
+.project-card {
+  width: 100%;
+  padding: 1rem;
+  height: auto;
+  border-radius: 0.75rem;
+  box-shadow: 0 4px 6px rgba(255, 255, 255, 0.1);
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(13, 13, 13);
+  transition: background-color 1s;
+}
+
+.project-card:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  color: #fff;
+  border-color: rgba(56, 189, 248); /* Purple border on focus */
+  box-shadow: 0 0 12px rgba(56, 189, 248);
+}
+
+.project-card .image-container {
+  width: 100%;
+  height: 80%;
+  overflow: hidden;
+  border-radius: 0.75rem;
+}
+
+.project-card .image-container img {
+  width: 100%;
+  height: 15rem; /* Equivalent to h-60 */
+  object-fit: cover;
+  transition: transform 0.3s;
+  cursor: pointer;
+}
+
+.project-card:hover .image-container img {
+  transform: scale(1.1);
+}
+
+.project-card .details {
+  width: 100%;
+  margin-top: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.project-card .details .title-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.project-card .details h3 {
+  font-size: 1rem;
+  text-transform: uppercase;
+  color: var(--design-color); /* Replace with your desired color */
+  font-weight: normal;
+}
+
+.project-card .details .social-icons {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.project-card .details .social-icons span {
+  font-size: 1.25rem;
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  background-color: black;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  color: #b3b3b3; /* Gray-400 equivalent */
+  transition: color 0.3s;
+  cursor: pointer;
+}
+
+.project-card .details .social-icons span:hover {
+  color: var(--design-color); /* Replace with your desired hover color */
+}
+
+.project-card .details p {
+  font-size: 0.875rem; /* Equivalent to text-sm */
+  letter-spacing: 0.025em;
+  margin-top: 0.75rem;
+  transition: color 0.3s;
+}
+
+.project-card .details p:hover {
+  color: #f3f4f6; /* Gray-100 equivalent */
+}

@@ -22,7 +22,7 @@ const ResumeCard = ({title,subTitle,year,logo}) => {
             <h3 class="sub-title">
               {year}
             </h3>
-            </div>
+            </div>  
             <div className='inner-resume-card-image'>
             <img className='logo-image' src={logo} alt="logo iamges" />
             
