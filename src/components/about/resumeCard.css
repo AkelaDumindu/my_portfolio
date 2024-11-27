@@ -1,14 +1,127 @@
 .bgOpacity {
-  background-color: white; /* black with 40% opacity */
+  background-color: white;
 }
 
-/* Container styles */
 .timeline-container {
-  margin-top: 3.5rem; /* mt-14 */
-  width: 100%; /* w-full */
-  height: 1000px; /* h-[1000px] */
-  border-left: 6px solid white; /* border-l-[6px] border-l-black border-opacity-30 */
+  margin-top: 3.5rem;
+  width: 100%;
+  height: auto;
+  border-left: 6px solid white;
   display: flex;
-  flex-direction: column; /* flex-col */
-  gap: 2.5rem; /* gap-10 */
+  flex-direction: column;
+  gap: 2.5rem;
+}
+
+.my-container {
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.2);
+  transition-duration: 0.3s;
+  height: auto;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1.5rem;
+
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.my-container:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.logo-image {
+  width: 80px;
+  /* background-color: white; */
+}
+
+@media (min-width: 1024px) {
+  .my-container {
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+    gap: 2.5rem;
+  }
+}
+
+.inner-resume-card {
+  display: flex;
+  padding: 10px;
+
+  width: 100%;
+  height: auto;
+  gap: 3rem;
+}
+
+.inner-resume-card-info {
+  width: 80%;
+}
+
+.inner-resume-card-image {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.lgl\:flex-row {
+  flex-direction: row;
+}
+
+.lgl\:justify-between {
+  justify-content: space-between;
+}
+
+.lgl\:gap-0 {
+  gap: 0;
+}
+
+.lgl\:items-center {
+  align-items: center;
+}
+
+.inner-resume-card > div {
+  display: block;
+}
+
+.inner-resume-card h1 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+.inner-resume-card h1:hover {
+  color: white;
+}
+
+.inner-resume-card h2 {
+  font-size: 1rem;
+  margin-top: 5px;
+  color: rgba(255, 255, 255, 0.7);
+  transition: color 0.3s ease;
+}
+
+.inner-resume-card h2:hover {
+  color: white;
+}
+
+.inner-resume-card h3 {
+  font-size: 1rem;
+  margin-top: 5px;
+  color: rgba(255, 255, 255, 0.5);
+  transition: color 0.3s ease;
+}
+
+@media (min-width: 1024px) {
+  .inner-resume-card {
+    flex-direction: row;
+  }
+
+  .inner-resume-card > div {
+    display: block;
+  }
+
+  .inner-resume-card h1 {
+    font-size: 1.5rem;
+  }
 }
