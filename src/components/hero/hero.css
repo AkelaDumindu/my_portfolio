@@ -8,9 +8,7 @@
   margin-bottom: 65px;
 }
 
-/* .designation-name {
-  height: 100px;
-} */
+
 .designation {
   text-align: center;
   color: #fff;
@@ -47,7 +45,7 @@
 }
 
 .left-sidebar .social-profile li {
-  list-style: none; /* Optional: remove bullet points */
+  list-style: none; 
 }
 
 .left-sidebar .social-profile li a {
@@ -59,12 +57,12 @@
   border: 2px solid #565656;
   border-radius: 50%;
   color: #999999;
-  font-size: 24px; /* Increase or decrease to adjust icon size */
+  font-size: 24px;
   transition: 0.3s;
 }
 .left-sidebar .social-profile li a:hover {
   color: rgba(56, 189, 248);
-  border-color: rgba(56, 189, 248); /* Purple border on focus */
+  border-color: rgba(56, 189, 248);
   outline: none;
   box-shadow: 0 0 4px rgba(56, 189, 248);
 }
@@ -141,7 +139,6 @@
   margin: 25px 0;
   text-align: justify;
 }
-/*card section of hero*/
 
 .fade-in {
   display: flex;
@@ -161,7 +158,7 @@
 }
 
 .cardsett {
-  /* margin-top: 5rem; */
+  
   display: flex;
   gap: 3rem;
 }
@@ -191,18 +188,16 @@
 /*scroll button*/
 
 .scroll-button {
-  /* This will position the button relative to the cardsett */
-  top: 10px; /* Adjust the distance from the top */
-  right: 10px; /* Adjust the distance from the right edge */
+  top: 10px;
+  right: 10px;
   background: rgba(255, 255, 255, 0.1);
   border: 1px solid rgba(255, 255, 255, 0.5);
   border-radius: 50%;
   height: 9rem;
-  width: 4.5rem; /* Ensures the button is circular */
+  width: 4.5rem;
   color: white;
   font-size: 1rem;
   cursor: pointer;
-  /* transition: background 0.3s, border-color 0.3s; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -223,13 +218,13 @@
 
 .scroll-icon {
   font-size: 4.5rem;
-  color: inherit; /* Inherit the color from parent, or you can set a default color */
-  transition: all 0.3s ease; /* Smooth transition for all styles */
+  color: inherit;
+  transition: all 0.3s ease;
 }
 
 .scroll-icon:hover {
   background: none;
-  color: #fff; /* Change color on hover */
-  padding: 10px; /* Optional: Add padding to make the hover effect more noticeable */
-  border-radius: 8px; /* Optional: Rounded corners for the border */
+  color: #fff;
+  padding: 10px;
+  border-radius: 8px;
 }

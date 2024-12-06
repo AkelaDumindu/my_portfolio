@@ -3,13 +3,13 @@ import { BsGithub } from "react-icons/bs";
 import { FaGlobe } from "react-icons/fa";
 import './projectCard.css'; // Import the CSS file for styling
 
-const ProjectsCard = ({ title, des, src }) => {
+const ProjectsCard = ({ title, des, url }) => {
   return (
     <div className="project-card">
       <div className="image-container">
         <img
           className="project-image"
-          src={src}
+          src={url}
           alt="project"
         />
       </div>
