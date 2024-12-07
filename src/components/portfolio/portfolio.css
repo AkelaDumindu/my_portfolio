@@ -108,3 +108,30 @@
   background-color: #38bdf8;
   color: #000;
 }
+
+.see-more-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.see-more-btn {
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  background-color: #38bdf8;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.see-more-btn:hover {
+  background-color: #1e90ff; /* Darker blue */
+  transform: scale(1.1); /* Slightly enlarge the button */
+}
+
+.see-more-btn:active {
+  transform: scale(1); /* Reset to original size when clicked */
+}
