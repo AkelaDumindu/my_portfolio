@@ -46,18 +46,15 @@
   text-align: justify;
 }
 
-/* for icon  */
-
 .icon-container {
   display: flex;
-  /* justify-content: center; */
   align-items: center;
   margin-top: 10px;
 }
 
 .icons-wrapper {
-  display: flex; /* Align icons horizontally */
-  gap: 20px; /* Add spacing between icons */
+  display: flex;
+  gap: 20px;
 }
 
 .icon-wrapper {
@@ -66,7 +63,7 @@
 }
 
 .icon-text {
-  visibility: hidden; /* Hide text by default */
+  visibility: hidden;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -81,7 +78,33 @@
 }
 
 .icon-wrapper:hover .icon-text {
-  visibility: visible; /* Show text when icon is hovered */
-  opacity: 1; /* Make text visible */
+  visibility: visible;
+  opacity: 1;
   transition: opacity 0.3s ease;
+}
+
+.filter-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.filter-buttons button {
+  width: 100px;
+  height: 40px;
+  border-radius: 10px;
+  background-color: rgba(61, 61, 61, 0.3);
+  color: #fff;
+  font-size: 14px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+}
+
+.filter-buttons .active {
+  background-color: #38bdf8;
+  color: #000;
 }
