@@ -1,6 +1,7 @@
 import './portfolio.css'; 
 import PortfolioCard from './PortfolioCard'; 
 import { IoLogoGithub, IoLogoTwitter, IoLogoReact } from 'react-icons/io5'; 
+import { IoIosArrowDown, IoIosArrowUp } from "react-icons/io";
 import { useState } from 'react';
 
 const portfolioData = [
@@ -126,11 +127,11 @@ const Portfolio = () => {
             <div className="see-more-container">
               {visibleCount < filteredProjects.length ? (
                 <button className="see-more-btn" onClick={handleSeeMore}>
-                  See More
+                 <div className='flex items-center gap-2'><IoIosArrowDown size={25}/> Show More</div>
                 </button>
               ) : (
                 <button className="see-more-btn" onClick={handleShowLess}>
-                  Show Less
+                  <div className='flex items-center gap-2'><IoIosArrowUp size={25}/> Show Less</div>
                 </button>
               )}
             </div>
