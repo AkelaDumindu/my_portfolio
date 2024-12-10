@@ -1,5 +1,6 @@
 import MyAbout from './components/about/MyAbout';
 import Contact from './components/contact/Contact';
+import Gallery from './components/gallery/Gallery';
 import Hero from './components/hero/Hero';
 import Navbar from './components/nav/Navbar';
 import ParticleBack from "./components/ParticleBack";
@@ -28,7 +29,9 @@ const App = ()=>{
       <MyAbout/>
       <Skill/>
       <Portfolio/>
+      <Gallery />
       <Contact/>
+      
       
     </main>
   </>
