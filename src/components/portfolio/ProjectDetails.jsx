@@ -21,7 +21,9 @@ const ProjectDetails = () => {
         <h1 >{project.title}</h1>
         </div>
         
-        <div className="mock-image" style={{ backgroundImage: `url(${project.url})` }}></div>
+        <div className="mock-image-outer">
+          <img className='mock-image' src={project.url} alt="project image" />
+        </div>
     {/* <div className='details-nav-outer'>
     <div className="details-nav">
           <button>Overview</button>
@@ -48,13 +50,11 @@ const ProjectDetails = () => {
 
           <h3>Tech Stack</h3>
           <div className='techstack-box'>
-
-            
           </div>
 
           <h3>Team Details</h3>
 
-          <div className='details-stack gap-2'>
+          <div className='details-stack'>
           
           
 

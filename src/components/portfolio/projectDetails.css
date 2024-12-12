@@ -1,42 +1,48 @@
 .project-details {
-    padding: 20px;
-  }
-  
-  .back-button {
-    margin-bottom: 20px;
-    cursor: pointer;
-    background: none;
-    border: none;
-    color: #007bff;
-    font-size: 16px;
-  }
+  padding: 20px;
+}
 
-  .title-section{
-    display: flex;
-    text-align: center;
-    justify-content: center;
-  }
+.back-button {
+  margin-bottom: 20px;
+  cursor: pointer;
+  background: none;
+  border: none;
+  color: #007bff;
+  font-size: 16px;
+}
 
-  .title-section h1{
-      font-size: 4rem;
-      color: green;
+.title-section {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
 
+.title-section h1 {
+  font-size: 4rem;
+  color: green;
+}
 
-  }
-  
-  .details-container {
-    text-align: center;
-  }
-  
-  .mock-image {
-    width: 100%;
-    height: 300px;
-    background-size: cover;
-    background-position: center;
-    margin-bottom: 20px;
-  }
+.details-container {
+  text-align: center;
+}
 
-  /* .details-nav-outer{
+.mock-image-outer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 600px;
+}
+
+.mock-image {
+  width: 80%;
+  height: 480px;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 20px;
+  border-radius: 25px;
+}
+
+/* .details-nav-outer{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -62,33 +68,41 @@
   }
    */
 
-   .details-overview{
-    display: flex;
-    flex-direction: column;
-    padding: 50px;
-   }
+.details-overview {
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+}
 
+.details-overview h3 {
+  align-items: center;
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 600;
+}
 
-   .details-overview h3{
-    align-items: center;
-    text-align: center;
-    font-size: 2.5rem;
-    font-weight: 600;
+.details-overview p {
+  font-size: 1rem;
+  text-align: justify;
+  padding: 25px 0;
+}
 
-   }
+.techstack-box {
+  width: 100%;
+  height: 200px;
+  background-color: rgba(255, 255, 255, 0.1);
+}
 
-   .details-overview p{
-      font-size: 1rem;
-      text-align: justify;
-      padding: 25px 0;
-   }
+.details-stack h2 {
+  font-size: 1.5rem;
+  color: rgba(255, 255, 255, 1);
+  padding-top: 20px;
+}
 
-   .techstack-box{
-    width: 100%;
-    height: 200px;
-    background-color: rgba(255, 255, 255, 0.1);
-   }
-  .details-content {
-    margin-top: 20px;
-  }
-  
+.details-stack p {
+  color: rgba(255, 255, 255, 0.7);
+  padding: 5px 0;
+}
+.details-content {
+  margin-top: 20px;
+}
