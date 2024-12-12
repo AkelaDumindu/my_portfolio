@@ -4,7 +4,7 @@ import { IoLogoGithub, IoLogoTwitter, IoLogoReact } from 'react-icons/io5';
 import { IoIosArrowDown, IoIosArrowUp } from "react-icons/io";
 import { useState } from 'react';
 
-const portfolioData = [
+export const portfolioData = [
   {
     title: "SUJS Journal app",
     typeName: "Group Project | Web Site",
@@ -113,6 +113,7 @@ const Portfolio = () => {
             {visibleProjects.map((project, index) => (
               <PortfolioCard
                 key={index}
+                projectId={index}
                 title={project.title}
                 typeName={project.typeName}
                 url={project.url}
