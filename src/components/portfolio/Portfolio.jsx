@@ -8,16 +8,31 @@ export const portfolioData = [
   {
     title: "SUJS Journal app",
     typeName: "Group Project | Web Site",
+    demoVideo:"../video/campinga-demo.mp4",
+    screenshots: ['../images/screenshot/sujcs-1.png', '../images/screenshot/sujcs-2.png', '../images/screenshot/sujcs-3.png', '../images/screenshot/sujcs-4.png', '../images/screenshot/sujcs-5.png'],
     category: "web",
     url: "../images/portfolio/image1.jpg",
     des: "A website is a set of web pages grouped together under one domain.",
+    teamMembers: ['John Doe', 'Jane Smith'],
+  role: 'Full Stack Development',
+  duration: '3 months',
   },
   {
     title: "Derma App",
     typeName: "Individual Project | App",
+    demoVideo:"../video/campinga-demo.mp4",
+    screenshots: ['../images/screenshot/sujcs-1.png', '../images/screenshot/sujcs-2.png', '../images/screenshot/sujcs-3.png', '../images/screenshot/sujcs-4.png', '../images/screenshot/sujcs-5.png'],
     category: "app",
     url: "../images/portfolio/image1.jpg",
     des: "A mobile application for skin disease detection.",
+    techStack: [
+      { name: 'React', logo: '../images/skillImages/react.png' },
+      { name: 'Node.js', logo: '../images/skillImages/react.png' },
+      { name: 'CSS', logo: '../images/skillImages/react.png' }
+    ],
+    teamMembers: ['John Doe', 'Jane Smith'],
+  role: 'Full Stack Development',
+  duration: '3 months',
   },
   {
     title: "Portfolio Website",

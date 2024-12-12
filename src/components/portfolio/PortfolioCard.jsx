@@ -20,14 +20,14 @@ const ProjectsCard = ({ title, des, url, projectId, githubLink, liveLink }) => {
             {title}
           </h3>
           <div className="social-icons">
-            {/* Link to the GitHub repository */}
+            
             <span className="social-icon">
               <a href={githubLink} target="_blank" rel="noopener noreferrer">
                 <BsGithub />
               </a>
             </span>
             
-            {/* Link to the project details page using React Router */}
+            
             <span className="social-icon">
               <Link to={`/project/${projectId}`} title="View Project">
                 <FaGlobe />

@@ -1,35 +1,173 @@
 .project-details {
-    padding: 20px;
+  padding: 0 40px;
+}
+
+.back-button {
+  margin: 50px 0 0 50px;
+  width: 120px;
+  height: 50px;
+  cursor: pointer;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 25px;
+  border: 2px solid white;
+  color: white;
+  font-size: 16px;
+}
+
+.back-button:hover {
+  color: rgba(56, 189, 248);
+  border-color: rgba(56, 189, 248);
+  outline: none;
+  box-shadow: 0 0 4px rgba(56, 189, 248);
+}
+
+.title-section {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+.title-section h1 {
+  font-size: 4rem;
+  color: green;
+}
+
+.details-container {
+  text-align: center;
+}
+
+.mock-image-outer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 600px;
+  margin-top: 0;
+}
+
+.mock-image {
+  width: 80%;
+  height: 480px;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 20px;
+  border-radius: 25px;
+}
+
+/* .details-nav-outer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   
-  .back-button {
-    margin-bottom: 20px;
-    cursor: pointer;
-    background: none;
-    border: none;
-    color: #007bff;
-    font-size: 16px;
+  .details-nav{
+    display: flex;
+    padding: 25px;
+    width: 60%;
+    border-radius: 25px;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.5);
+    
   }
-  
-  .details-container {
-    text-align: center;
-  }
-  
-  .mock-image {
-    width: 100%;
-    height: 300px;
-    background-size: cover;
-    background-position: center;
-    margin-bottom: 20px;
-  }
-  
-  .details-nav button {
-    margin: 0 10px;
+
+  .details-nav button{
     padding: 10px 20px;
-    cursor: pointer;
+    font-size: 2rem;
+    font-weight: 500;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 25px;
   }
-  
-  .details-content {
-    margin-top: 20px;
-  }
-  
+   */
+
+.details-overview {
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+}
+
+.details-overview h3 {
+  align-items: center;
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+
+.details-overview p {
+  font-size: 1rem;
+  text-align: justify;
+  padding: 25px 0;
+}
+
+/*tech box*/
+
+.techstack-box {
+  width: 100%;
+  height: 200px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 25px;
+  gap: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.tech-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem;
+}
+
+.tech-logo {
+  width: 80px;
+  height: 80px;
+}
+
+.details-stack h2 {
+  font-size: 1.5rem;
+  color: rgba(255, 255, 255, 1);
+  padding-top: 20px;
+}
+
+.details-stack p {
+  color: rgba(255, 255, 255, 0.7);
+  padding: 5px 0;
+}
+
+.project-demo {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px;
+}
+.details-content {
+  margin-top: 20px;
+}
+
+.screenshot-gallery {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.screenshot-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.screenshot-item img {
+  justify-content: center;
+  max-width: 90%;
+  height: auto;
+  border: 1px solid #ddd;
+  background-position: center;
+  border-radius: 4px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
