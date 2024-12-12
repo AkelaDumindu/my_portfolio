@@ -35,6 +35,23 @@ nav a.active {
   color: #fff;
 }
 
+
+.static-image {
+  margin-left: 20px;
+  position: fixed;
+  bottom: 1rem;
+  left: 1rem;
+  width: 50px; /* Adjust size */
+  height: 50px; /* Adjust size */
+  z-index: 3; /* Ensure it stays above other elements */
+}
+
+.static-image:hover {
+  transform: scale(1.1); /* Add a hover effect */
+  transition: transform 0.3s ease-in-out;
+}
+
+
 /*medium device responsiveness*/
 
 @media screen and (max-width: 1024px) {
