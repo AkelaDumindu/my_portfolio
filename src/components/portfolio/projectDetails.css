@@ -1,14 +1,24 @@
 .project-details {
-  padding: 20px;
+  padding: 0 40px;
 }
 
 .back-button {
-  margin-bottom: 20px;
+  margin: 50px 0 0 50px;
+  width: 120px;
+  height: 50px;
   cursor: pointer;
-  background: none;
-  border: none;
-  color: #007bff;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 25px;
+  border: 2px solid white;
+  color: white;
   font-size: 16px;
+}
+
+.back-button:hover {
+  color: rgba(56, 189, 248);
+  border-color: rgba(56, 189, 248);
+  outline: none;
+  box-shadow: 0 0 4px rgba(56, 189, 248);
 }
 
 .title-section {
@@ -31,6 +41,7 @@
   justify-content: center;
   align-items: center;
   height: 600px;
+  margin-top: 0;
 }
 
 .mock-image {
@@ -87,10 +98,32 @@
   padding: 25px 0;
 }
 
+/*tech box*/
+
 .techstack-box {
   width: 100%;
   height: 200px;
   background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 25px;
+  gap: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.tech-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem;
+}
+
+.tech-logo {
+  width: 80px;
+  height: 80px;
 }
 
 .details-stack h2 {
@@ -103,6 +136,38 @@
   color: rgba(255, 255, 255, 0.7);
   padding: 5px 0;
 }
+
+.project-demo {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px;
+}
 .details-content {
   margin-top: 20px;
+}
+
+.screenshot-gallery {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.screenshot-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.screenshot-item img {
+  justify-content: center;
+  max-width: 90%;
+  height: auto;
+  border: 1px solid #ddd;
+  background-position: center;
+  border-radius: 4px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }

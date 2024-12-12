@@ -14,7 +14,7 @@ const ProjectDetails = () => {
   return (
     <section className="project-details">
       <button className="back-button" onClick={() => navigate('/')}>
-        ← Back to Portfolio
+        ← Back
       </button>
       <div className="container">
         <div className='title-section'>
@@ -50,6 +50,12 @@ const ProjectDetails = () => {
 
           <h3>Tech Stack</h3>
           <div className='techstack-box'>
+          {project.techStack.map((tech, index) => (
+    <div key={index} className="tech-item">
+      <img src={tech.logo} alt={`${tech.name} logo`} className="tech-logo" />
+      <span>{tech.name}</span>
+    </div>
+  ))}
           </div>
 
           <h3>Team Details</h3>
@@ -60,17 +66,53 @@ const ProjectDetails = () => {
 
           
           <h2>Team Memebers:</h2>
-          <p>Mevin Perera, Kushan Andarawewa, Ishani Samaraweera</p>
+          <p>{project.teamMembers.join(', ')}</p>
           <h2>My Role:</h2>
-          <p>full Stack Development</p>
+          <p>{project.role}</p>
           <h2>Time Duration</h2>
-          <p>3 month</p>
+          <p>{project.duration}</p>
           
          
 
           
         
     </div>
+    <h3>Project Demo</h3>
+
+    <div className='project-demo'>
+  
+  {project.demoVideo?.endsWith(".mp4") ? (
+    
+    <video controls width="800">
+     
+      <source src={project.demoVideo} type="video/mp4" />
+      Your browser does not support the video tag.
+    </video>
+  ) : (
+    
+    <iframe
+      width="800"
+      height="340"
+      src={project.demoVideo}
+      title="Project Demo Video"
+      frameBorder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowFullScreen
+    ></iframe>
+  )}
+</div>
+<h3>Additional Screenshots</h3>
+        <div className="screenshot-gallery">
+          {project.screenshots.map((screenshot, index) => (
+            <div key={index} className="screenshot-item">
+              <img src={screenshot} alt={`Screenshot ${index + 1}`} />
+            </div>
+          ))}
+        </div>
+
+
+
+    
           </div>
 
           
