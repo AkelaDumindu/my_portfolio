@@ -10,14 +10,15 @@ import Portfolio from './components/portfolio/Portfolio';
 import Skill from './components/skills/Skill';
 import ProjectDetails from './components/portfolio/ProjectDetails';
 
-// Custom wrapper to manage Navbar visibility
+// Custom wrapper to manage Navbar and ParticleBack visibility
 const Layout = ({ children }) => {
   const location = useLocation();
   const hideNavbar = location.pathname.startsWith("/project/");
+  const hideParticleBack = location.pathname.startsWith("/project/");
 
   return (
     <>
-      <ParticleBack />
+      {!hideParticleBack && <ParticleBack />}
       {!hideNavbar && <Navbar />}
       {children}
     </>
