@@ -300,12 +300,4 @@
     left: 0;
     right: 0;
   }
-
-  .designation {
-    text-align: center;
-    color: #fff;
-    font-size: 25px;
-    width: 100%;
-    font-weight: bolder;
-  }
 }

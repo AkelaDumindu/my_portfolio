@@ -88,7 +88,7 @@ const skillItem = [
 
 const Skill = () => {
   return (
-    <section className='section'>
+    <section className='section-skill'>
         <div className="container ">
           <div className='skill-section'>
             <div className='flex flex-col items-center'>
@@ -101,7 +101,7 @@ const Skill = () => {
             </div>
           
 
-            <div className='grid gap-3 grid-cols-[repeat(auto-fill,_minmax(150px,_1fr))]'>
+            <div className='grid justify-center items-center gap-3 grid-cols-[repeat(auto-fill,_minmax(150px,_1fr))]'>
                 {
                     skillItem.map(({imgSrc, label, desc}, key)=>(
                         <SkillCard 
