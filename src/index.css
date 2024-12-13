@@ -115,27 +115,6 @@ body {
 }
 
 /* Make the image static on screen while scrolling */
-.image-pos {
-  position: fixed;
-  top: 10px; /* Adjust to where you want the image to appear */
-  right: 20px; /* Adjust this to position it horizontally */
-  z-index: 10; /* Make sure the image stays on top */
-  width: 420px; /* Or whatever the fixed size of the image should be */
-  height: auto;
-  background-color: rgba(255, 255, 255, 0.05);
-  border-radius: 30px;
-  border: 2px solid rgba(255, 255, 255, 0.5); /* Light border for glass effect */
-  backdrop-filter: blur(10px); /* Apply blur for glass effect */
-  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2); /* Slight shadow for depth */
-  transition: box-shadow 0.3s ease; /* Smooth transition */
-  /* position: fixed; */
-  /* left: 20px; */
-
-  /* transform: translateY(-50%); */
-  padding: 20px 50px;
-  z-index: 10;
-  bottom: 10px; /* Maintain aspect ratio */
-}
 
 /* Optionally, add this to make sure other content doesn't overlap */
 .container {
