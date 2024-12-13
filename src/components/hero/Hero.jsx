@@ -51,7 +51,7 @@ const Hero = () => {
         </div>
 
         {/* Image Section - Sidebar with fixed position */}
-        <div className="hidden lg:block image-pos">
+        <div className="lg:block image-pos">
           <div className="left-sidebar">
             <div className="designation-name ">
               <span className="designation text-4xl">Akela Dumindu</span>
@@ -91,7 +91,7 @@ const Hero = () => {
         </div>
       </div>
     </section>
-  );
+  ); 
 };
 
 export default Hero;
