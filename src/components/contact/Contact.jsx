@@ -1,8 +1,40 @@
 import React from 'react'
+import Swal from 'sweetalert2'
 import './contact.css'; 
 
 
 const Contact = () => {
+
+  const [result, setResult] = React.useState("");
+
+  const onSubmit = async (event) => {
+    event.preventDefault();
+    setResult("Sending....");
+    const formData = new FormData(event.target);
+
+    formData.append("access_key", import.meta.env.VITE_WEB3FORMS_ACCESS_KEY);
+
+    const response = await fetch("https://api.web3forms.com/submit", {
+      method: "POST",
+      body: formData
+    });
+
+    const data = await response.json();
+
+    if (data.success) {
+      Swal.fire({
+        title: "Success!",
+        text: "Message Sent Successfully!",
+        icon: "success"
+      });
+      event.target.reset();
+    } else {
+      console.log("Error", data);
+      setResult(data.message);
+    }
+  };
+
+
   return (
 
 
@@ -14,17 +46,17 @@ const Contact = () => {
             <h2 className="headline-2">Contact Me</h2>
           </div>
         <div className='contactform flex flex-col items-center' id="form">
-    <form action="" id="contactForm" method="post">
+    <form action="" id="contactForm" onSubmit={onSubmit}>
   <span>Name</span>
-  <input class="field" type="text" name="name" placeholder="Enter your name" /><br />
+  <input class="field" type="text" name="name" placeholder="Enter your name" required/><br />
   
   <span>Email</span>
-  <input class="field" type="email" name="email" placeholder="Enter your email" /><br />
+  <input class="field" type="email" name="email" placeholder="Enter your email" required /><br />
   
   <span id="captcha"></span>
   
   <span>Message</span>
-  <textarea class="field" name="message" placeholder="Enter your message"></textarea><br />
+  <textarea class="field" name="message" placeholder="Enter your message" required></textarea><br />
   
   <input type="submit" name="submit" value="Send e-mail" class="submit" />
 </form>
