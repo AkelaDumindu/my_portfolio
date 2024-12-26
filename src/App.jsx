@@ -1,7 +1,6 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route, Navigate } from "react-router-dom";
 import { useLocation } from "react-router-dom";
-
 import MyAbout from "./components/about/MyAbout";
 import Contact from "./components/contact/Contact";
 import Gallery from "./components/gallery/Gallery";
