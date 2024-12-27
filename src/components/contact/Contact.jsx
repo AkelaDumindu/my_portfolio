@@ -38,7 +38,7 @@ const Contact = () => {
   return (
 
 
-    <section className="section">
+    // <section className="section">
       <div className="container">
         <div className="contact-outer mb-24">
 
@@ -46,9 +46,9 @@ const Contact = () => {
             <h2 className="headline-2">Contact Me</h2>
           </div>
         <div className='contactform flex flex-col items-center' id="form">
-    <form action="" id="contactForm" onSubmit={onSubmit}>
+    <form action="" id="contactForm" onSubmit={onSubmit} className='form-outer'>
   <span>Name</span>
-  <input class="field" type="text" name="name" placeholder="Enter your name" required/><br />
+  <input className="field" type="text" name="name" placeholder="Enter your name" required/><br />
   
   <span>Email</span>
   <input class="field" type="email" name="email" placeholder="Enter your email" required /><br />
@@ -67,7 +67,7 @@ const Contact = () => {
      
         
       </div>
-    </section>
+    // </section>
 
 
 
