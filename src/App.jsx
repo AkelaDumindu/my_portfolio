@@ -41,8 +41,8 @@ const App = () => {
           path="/homePage"
           element={
             <Layout>
-              <main>
-                <section id="home">
+              <main className="main-oy">
+                <section id="home" className="main-section-outer">
                   <Hero />
                 </section>
                 <section id="about">
@@ -57,7 +57,7 @@ const App = () => {
                 <section id="gallery">
                   <Gallery />
                 </section>
-                <section id="contact">
+                <section id="contact" className="main-section-outer">
                   <Contact />
                 </section>
               </main>

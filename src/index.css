@@ -119,6 +119,7 @@ body {
 /* Optionally, add this to make sure other content doesn't overlap */
 .container {
   position: relative;
+  z-index: 10;
 }
 
 .about-info {

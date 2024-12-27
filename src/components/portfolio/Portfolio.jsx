@@ -14,8 +14,8 @@ export const portfolioData = [
     url: "../images/portfolio/image1.jpg",
     des: "A website is a set of web pages grouped together under one domain.",
     teamMembers: ['John Doe', 'Jane Smith'],
-  role: 'Full Stack Development',
-  duration: '3 months',
+    role: 'Full Stack Development',
+    duration: '3 months',
   },
   {
     title: "Derma App",
@@ -31,8 +31,8 @@ export const portfolioData = [
       { name: 'CSS', logo: '../images/skillImages/react.png' }
     ],
     teamMembers: ['John Doe', 'Jane Smith'],
-  role: 'Full Stack Development',
-  duration: '3 months',
+    role: 'Full Stack Development',
+    duration: '3 months',
   },
   {
     title: "Portfolio Website",
@@ -61,7 +61,7 @@ export const portfolioData = [
   {
     title: "E-Commerce Platform",
     typeName: "Individual Project | Web Site",
-    category: "web",
+    category: "practice",
     url: "../images/portfolio/image1.jpg",
     des: "An e-commerce platform for seamless shopping experience.",
   },
@@ -78,11 +78,13 @@ const Portfolio = () => {
   const visibleProjects = filteredProjects.slice(0, visibleCount);
 
   const handleSeeMore = () => {
-    setVisibleCount(filteredProjects.length); // Show all cards
+    console.log("See More clicked"); // Debugging
+    setVisibleCount(filteredProjects.length);
   };
 
   const handleShowLess = () => {
-    setVisibleCount(4); // Reset to show initial 4 cards
+    console.log("Show Less clicked"); // Debugging
+    setVisibleCount(4);
   };
 
   return (
@@ -98,6 +100,7 @@ const Portfolio = () => {
             <button
               className={`${filter === "all" ? "active" : ""}`}
               onClick={() => {
+                console.log("All button clicked");
                 setFilter("all");
                 setVisibleCount(4);
               }}
@@ -107,6 +110,7 @@ const Portfolio = () => {
             <button
               className={`${filter === "web" ? "active" : ""}`}
               onClick={() => {
+                console.log("Web button clicked");
                 setFilter("web");
                 setVisibleCount(4);
               }}
@@ -116,11 +120,23 @@ const Portfolio = () => {
             <button
               className={`${filter === "app" ? "active" : ""}`}
               onClick={() => {
+                console.log("App button clicked");
                 setFilter("app");
                 setVisibleCount(4);
               }}
             >
               App
+            </button>
+
+            <button
+              className={`${filter === "practice" ? "active" : ""}`}
+              onClick={() => {
+                console.log("Practice button clicked");
+                setFilter("practice");
+                setVisibleCount(4);
+              }}
+            >
+              Practice
             </button>
           </div>
 
@@ -143,11 +159,15 @@ const Portfolio = () => {
             <div className="see-more-container">
               {visibleCount < filteredProjects.length ? (
                 <button className="see-more-btn" onClick={handleSeeMore}>
-                 <div className='flex items-center gap-2'><IoIosArrowDown size={25}/> Show More</div>
+                  <div className="flex items-center gap-2">
+                    <IoIosArrowDown size={25} /> Show More
+                  </div>
                 </button>
               ) : (
                 <button className="see-more-btn" onClick={handleShowLess}>
-                  <div className='flex items-center gap-2'><IoIosArrowUp size={25}/> Show Less</div>
+                  <div className="flex items-center gap-2">
+                    <IoIosArrowUp size={25} /> Show Less
+                  </div>
                 </button>
               )}
             </div>

@@ -102,6 +102,7 @@
   align-items: center;
   justify-content: center;
   transition: all 0.3s ease;
+  position: relative; /* Ensure the button is above other elements */
 }
 
 .filter-buttons .active {
@@ -135,4 +136,37 @@
 
 .see-more-btn:active {
   transform: scale(1); /* Reset to original size when clicked */
+}
+
+@media (max-width: 768px) {
+  .filter-buttons {
+    display: flex; /* Stack buttons vertically */
+    align-items: center;
+    gap: 15px;
+    z-index: 10;
+  }
+
+  .filter-buttons button {
+    width: 50%;
+    padding: 12px;
+    font-size: 16px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .filter-buttons {
+    display: flex;
+    flex-direction: column; /* Stack buttons vertically */
+    align-items: center;
+    gap: 15px;
+    z-index: 10;
+  }
+
+  .filter-buttons button {
+    width: 80%;
+    padding: 12px;
+    font-size: 16px;
+    text-align: center;
+  }
 }
