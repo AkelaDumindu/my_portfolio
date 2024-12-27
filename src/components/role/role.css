@@ -10,4 +10,38 @@
   padding: 0 !important; /* Remove padding with !important */
 }
 
-/* You can also ensure no margin if that's an issue */
+.main-font-role {
+  font-size: 3rem;
+  text-align: left;
+}
+
+@media screen and (max-width: 768px) {
+  h1 {
+    font-size: 1.8rem;
+  }
+
+  .job-role-text {
+    font-size: 1.8rem;
+  }
+
+  .main-font-role {
+    font-size: 1.8rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .container {
+    margin-top: 0;
+  }
+  h1 {
+    font-size: 1.2rem;
+  }
+
+  .job-role-text {
+    font-size: 1.2rem;
+  }
+
+  .main-font-role {
+    font-size: 1.2rem;
+  }
+}
