@@ -38,7 +38,7 @@ const Hero = () => {
               </div>
 
             </div>
-             <div className='scroll-card'>
+             <div className='scroll-card '>
              <button 
           className="scroll-button" 
           onClick=""><RxDoubleArrowDown className="scroll-icon"/></button>

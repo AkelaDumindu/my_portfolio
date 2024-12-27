@@ -263,41 +263,80 @@
   }
 
   .image-pos {
-    position: relative; /* Change fixed to relative */
-    order: -1; /* Move the image to the top of the page */
-    width: 80%; /* Ensure the image takes up the width on small screens */
-    max-width: 100%; /* Prevent the image from exceeding the container */
-    margin-bottom: 20px; /* Optional, adjust as needed */
-    top: auto; /* Remove the top fixed positioning */
-    right: auto; /* Remove right fixed positioning */
-    left: 0; /* Align to the left on mobile */
-    bottom: auto; /* Remove the bottom fixed positioning */
+    position: relative;
+    order: -1;
+    width: 80%;
+    max-width: 100%;
+    margin-bottom: 20px;
+    top: auto;
+    right: auto;
+    left: 0;
+    bottom: auto;
   }
 
   .hero-theme {
-    order: 2; /* Ensure the hero-theme section follows the image */
-  }
-}
+    order: 2;
+    height: auto;
 
-@media screen and (max-width: 480px) {
-  .container {
-    margin-top: 5rem;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    z-index: -1;
-  }
-  .cardsett {
-    flex-direction: column;
-    gap: 1rem;
+    h2 {
+      font-size: 1.8rem;
+    }
+
+    .headline-1 {
+      font-size: 2rem;
+    }
+
+    .scroll-card {
+      display: none;
+    }
+
+    .cardd {
+      width: 6rem;
+
+      p {
+        font-size: 0.5rem;
+      }
+    }
   }
 
-  .image-pos {
-    width: 80%; /* Ensure full-width for smaller screens */
-    max-width: 80%; /* Prevent the image from exceeding the container */
-    margin-bottom: 20px; /* Optional, adjust as needed */
-    top: 0; /* Make sure it's at the top of the page */
-    left: 0;
-    right: 0;
+  @media screen and (max-width: 480px) {
+    .container {
+      margin-top: 5rem;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      z-index: -1;
+    }
+    .cardsett {
+      gap: 1rem;
+      justify-content: center;
+    }
+
+    .image-pos {
+      width: 80%;
+      max-width: 80%;
+      margin-bottom: 20px;
+      top: 0;
+      left: 0;
+      right: 0;
+    }
+
+    .image-pos .left-sidebar h2 {
+      font-size: 1.2rem;
+    }
+
+    .image-pos .designation {
+      font-size: 1.6rem;
+    }
+
+    .hero-theme {
+      h2 {
+        font-size: 1.5rem;
+      }
+
+      .headline-1 {
+        font-size: 1.8rem;
+      }
+    }
   }
 }
