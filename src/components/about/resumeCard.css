@@ -36,6 +36,9 @@
   /* background-color: white; */
 }
 
+
+
+
 @media (min-width: 1024px) {
   .my-container {
     padding-left: 2.5rem;
@@ -111,6 +114,9 @@
   color: rgba(255, 255, 255, 0.5);
   transition: color 0.3s ease;
 }
+
+
+
 
 @media (min-width: 1024px) {
   .inner-resume-card {
