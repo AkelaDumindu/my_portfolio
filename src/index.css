@@ -119,9 +119,14 @@ body {
 /* Optionally, add this to make sure other content doesn't overlap */
 .container {
   position: relative;
-  z-index: 10;
 }
 
 .about-info {
   width: 75%;
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    z-index: 10;
+  }
 }

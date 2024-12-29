@@ -1,7 +1,8 @@
 .job-role-text {
   @apply text-5xl leading-tight font-semibold lg:text-[40px] lg:leading-[1.15]
   max-w-max text-sky-400;
-  -webkit-background-clip: text;
+  background-clip: text; /* Standard property */
+  -webkit-background-clip: text; /* WebKit prefix for cross-browser compatibility */
 }
 
 /* Ensure no padding on .container and h1 */

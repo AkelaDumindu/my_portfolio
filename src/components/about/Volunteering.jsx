@@ -20,28 +20,28 @@ const Volunteering = () => {
           title="Instructor at CoderDojo"
           subTitle="STEMPUP"
           year="2023 - 2024"
-          logo="../images/resumeImages/boc_logo.png"
+          logo="../images/resumeImages/stemup_logo.png"
         />
 
       <ResumeCard
           title=" Organizing Committee Program Team Memeber"
           subTitle=" IEEE Careerforge"
           year="2023"
-          logo="../images/resumeImages/boc_logo.png"
+          logo="../images/resumeImages/ieee_logo.png"
         />
 
       <ResumeCard
           title="Active Member"
           subTitle="Society of Computer Sciences - SUSL"
           year="2023 - Present"
-          logo="../images/resumeImages/boc_logo.png"
+          logo="../images/resumeImages/computing_logo.jpg"
         />
 
       <ResumeCard
           title="Member"
           subTitle="ZeroPlastic Student Branch SUSL"
           year="2022 - 2023"
-          logo="../images/resumeImages/boc_logo.png"
+          logo="../images/resumeImages/zero_logo.png"
         />
         
       </div>
