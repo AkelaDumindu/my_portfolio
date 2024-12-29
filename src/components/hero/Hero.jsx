@@ -4,6 +4,7 @@ import { FaLinkedin } from "react-icons/fa6";
 import { FaInstagramSquare } from "react-icons/fa";
 import JobRole from '../role/JobRole';
 import { RxDoubleArrowDown } from "react-icons/rx";
+import CV from "./cv/Akela_Dumindu_CV.pdf"
 
 const Hero = () => {
   return (
@@ -65,17 +66,17 @@ const Hero = () => {
             <p className="copyright">&copy; 2024 Akela. All Rights Reserved</p>
             <ul className="social-profile">
               <li>
-                <a href="" target="_blank" rel="noopener noreferrer">
+                <a href="https://github.com/AkelaDumindu" target="_blank" rel="noopener noreferrer">
                 <span className='mhy-icon'><FaGithub size={30}/></span>
                 </a>
               </li>
               <li>
-                <a href="" target="_blank" rel="noopener noreferrer">
+                <a href="https://www.linkedin.com/in/akela-dumindu-50830727a/" target="_blank" rel="noopener noreferrer">
                 <span className='mhy-icon'><FaLinkedin size={30}/></span>
                 </a>
               </li>
               <li>
-                <a href="" target="_blank" rel="noopener noreferrer">
+                <a href="https://www.instagram.com/akela_dumindu/profilecard/?igsh=MWhjMmdvczBxaG04YQ==" target="_blank" rel="noopener noreferrer">
                   
                   <span className='mhy-icon'><FaInstagramSquare  size={30}/></span>
                 </a>
@@ -84,7 +85,7 @@ const Hero = () => {
             </ul>
 
            
-            <a href="" className="theme-btn" download>
+            <a href={CV} className="theme-btn" download>
               <i className="las la-download"></i> Download CV
             </a>
           </div>
