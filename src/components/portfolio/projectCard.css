@@ -27,7 +27,7 @@
 
 .project-card .image-container img {
   width: 100%;
-  height: 15rem; /* Equivalent to h-60 */
+  height: 18rem; /* Equivalent to h-60 */
   object-fit: cover;
   transition: transform 0.3s;
   cursor: pointer;

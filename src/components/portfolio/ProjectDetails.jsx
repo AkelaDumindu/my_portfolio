@@ -5,11 +5,13 @@ import './projectDetails.css';
 const ProjectDetails = () => {
   const { id } = useParams(); // Retrieve project ID from URL
   const navigate = useNavigate();
-  const project = portfolioData[id]; // Get project data by ID
+  const project = portfolioData.find((project) => project.id === id);// Get project data by ID
 
   if (!project) {
     return <div>Project not found.</div>;
   }
+
+  
 
   return (
     <section className="project-details">
@@ -49,14 +51,18 @@ const ProjectDetails = () => {
 
 
           <h3>Tech Stack</h3>
-          <div className='techstack-box'>
-          {project.techStack.map((tech, index) => (
-    <div key={index} className="tech-item">
-      <img src={tech.logo} alt={`${tech.name} logo`} className="tech-logo" />
-      <span>{tech.name}</span>
-    </div>
-  ))}
-          </div>
+<div className='techstack-box'>
+  {project.techStack && Array.isArray(project.techStack) ? (
+    project.techStack.map((tech, index) => (
+      <div key={index} className="tech-item">
+        <img src={tech.logo} alt={`${tech.name} logo`} className="tech-logo" />
+        <span>{tech.name}</span>
+      </div>
+    ))
+  ) : (
+    <p>No tech stack information available.</p>
+  )}
+</div>
 
           <h3>Team Details</h3>
 

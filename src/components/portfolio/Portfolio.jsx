@@ -6,18 +6,20 @@ import { useState } from 'react';
 
 export const portfolioData = [
   {
-    title: "SUJS Journal app",
+    id: "sujcs-journal",
+    title: "SUJCS Journal",
     typeName: "Group Project | Web Site",
     demoVideo:"../video/campinga-demo.mp4",
-    screenshots: ['../images/screenshot/sujcs-1.png', '../images/screenshot/sujcs-2.png', '../images/screenshot/sujcs-3.png', '../images/screenshot/sujcs-4.png', '../images/screenshot/sujcs-5.png'],
-    category: "web",
-    url: "../images/portfolio/image1.jpg",
+    screenshots: ['../images/portfolio/sujcs/sujcs_ss1.jpeg', '../images/portfolio/sujcs/sujcs_ss2.jpeg', '../images/portfolio/sujcs/sujcs_ss3.jpeg', '../images/portfolio/sujcs/sujcs_ss4.jpeg', '../images/portfolio/sujcs/sujcs_ss5.jpeg'],
+    category: "Web",
+    url: "../images/portfolio/sujcs_mock.png",
     des: "A website is a set of web pages grouped together under one domain.",
-    teamMembers: ['John Doe', 'Jane Smith'],
+    teamMembers: ['Tharushi Wijethunga', 'Tharindu Lakamal', 'Kalpani Ariyawansha', 'Buddhini Yallarawewa'],
     role: 'Full Stack Development',
     duration: '3 months',
   },
   {
+    id: "derma-app",
     title: "Derma App",
     typeName: "Individual Project | App",
     demoVideo:"../video/campinga-demo.mp4",
@@ -30,41 +32,55 @@ export const portfolioData = [
       { name: 'Node.js', logo: '../images/skillImages/react.png' },
       { name: 'CSS', logo: '../images/skillImages/react.png' }
     ],
-    teamMembers: ['John Doe', 'Jane Smith'],
+    teamMembers: ['Kalapani ', 'Jane Smith'],
     role: 'Full Stack Development',
     duration: '3 months',
   },
+
   {
-    title: "Portfolio Website",
-    typeName: "Individual Project | Web Site",
-    category: "web",
-    url: "../images/portfolio/image1.jpg",
-    des: "A personal portfolio website showcasing projects and skills.",
-    icons: [
-      { component: <IoLogoGithub size={40} />, alt: "GitHub" },
-      { component: <IoLogoTwitter size={40} />, alt: "Twitter" },
-      { component: <IoLogoReact size={40} />, alt: "React" },
-    ],
+    id: "derma-app",
+    title: "SUJCS Journal",
+    typeName: "Group Project | Web Site",
+    demoVideo:"../video/campinga-demo.mp4",
+    screenshots: ['../images/portfolio/sujcs/sujcs_ss1.jpeg', '../images/portfolio/sujcs/sujcs_ss2.jpeg', '../images/portfolio/sujcs/sujcs_ss3.jpeg', '../images/portfolio/sujcs/sujcs_ss4.jpeg', '../images/portfolio/sujcs/sujcs_ss5.jpeg'],
+    category: "Web",
+    url: "../images/portfolio/sujcs_mock.png",
+    des: "A website is a set of web pages grouped together under one domain.",
+    teamMembers: ['Tharushi Wijethunga', 'Tharindu Lakamal', 'Kalpani Ariyawansha', 'Buddhini Yallarawewa'],
+    role: 'Full Stack Development',
+    duration: '3 months',
   },
-  {
-    title: "Task Manager App",
-    typeName: "Group Project | App",
-    category: "app",
-    url: "../images/portfolio/image1.jpg",
-    des: "A mobile application to manage tasks efficiently.",
-    icons: [
-      { component: <IoLogoGithub size={40} />, alt: "GitHub" },
-      { component: <IoLogoTwitter size={40} />, alt: "Twitter" },
-      { component: <IoLogoReact size={40} />, alt: "React" },
-    ],
-  },
-  {
-    title: "E-Commerce Platform",
-    typeName: "Individual Project | Web Site",
-    category: "practice",
-    url: "../images/portfolio/image1.jpg",
-    des: "An e-commerce platform for seamless shopping experience.",
-  },
+  // {
+  //   title: "Portfolio Website",
+  //   typeName: "Individual Project | Web Site",
+  //   category: "web",
+  //   url: "../images/portfolio/image1.jpg",
+  //   des: "A personal portfolio website showcasing projects and skills.",
+  //   icons: [
+  //     { component: <IoLogoGithub size={40} />, alt: "GitHub" },
+  //     { component: <IoLogoTwitter size={40} />, alt: "Twitter" },
+  //     { component: <IoLogoReact size={40} />, alt: "React" },
+  //   ],
+  // },
+  // {
+  //   title: "Task Manager App",
+  //   typeName: "Group Project | App",
+  //   category: "app",
+  //   url: "../images/portfolio/image1.jpg",
+  //   des: "A mobile application to manage tasks efficiently.",
+  //   icons: [
+  //     { component: <IoLogoGithub size={40} />, alt: "GitHub" },
+  //     { component: <IoLogoTwitter size={40} />, alt: "Twitter" },
+  //     { component: <IoLogoReact size={40} />, alt: "React" },
+  //   ],
+  // },
+  // {
+  //   title: "E-Commerce Platform",
+  //   typeName: "Individual Project | Web Site",
+  //   category: "practice",
+  //   url: "../images/portfolio/image1.jpg",
+  //   des: "An e-commerce platform for seamless shopping experience.",
+  // },
 ];
 
 const Portfolio = () => {
@@ -144,7 +160,7 @@ const Portfolio = () => {
             {visibleProjects.map((project, index) => (
               <PortfolioCard
                 key={index}
-                projectId={index}
+                projectId={project.id}
                 title={project.title}
                 typeName={project.typeName}
                 url={project.url}
