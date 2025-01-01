@@ -91,3 +91,8 @@
 .project-card .details p:hover {
   color: #f3f4f6; /* Gray-100 equivalent */
 }
+
+.type-name{
+  color: rgba(255, 255, 255, 0.3);;
+
+}

@@ -38,16 +38,9 @@ const ProjectDetails = () => {
     
     <div className="details-overview">
           <h3>Project Overview</h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, exercitationem maxime! Perspiciatis hic fugit eligendi autem quisquam veniam dicta ad error numquam tempore ex fugiat sit officiis, enim mollitia ullam?
-          In nihil assumenda perferendis nulla deleniti ea iusto cumque! Libero tempora suscipit, quibusdam sed porro cumque vel harum excepturi voluptates perspiciatis blanditiis consectetur laborum qui omnis pariatur odit temporibus neque!
-          Ullam assumenda, eum earum odio aut temporibus quidem alias et nesciunt nobis architecto totam non iste repellendus consectetur molestias eveniet saepe tempora amet natus voluptas excepturi incidunt optio iure? Adipisci?
-          Soluta minima totam repudiandae. Inventore labore eum, reprehenderit porro dolorem ab non, quos molestias quasi aut facere in optio enim natus. Enim distinctio est odit ducimus. Dicta quis officiis mollitia?
-          Fugit maiores aliquid nesciunt labore numquam accusantium quo, ipsum asperiores reiciendis inventore similique tempora? Et, voluptatibus architecto animi voluptas harum incidunt quibusdam quis sequi temporibus, magnam facilis ex inventore aliquid.</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque dolores architecto, id cumque officiis voluptas, vero ut molestiae tempore omnis delectus eligendi ex incidunt quis saepe quaerat ab expedita veritatis.
-          Architecto, voluptatibus. Cupiditate excepturi repellat ipsam molestiae quo consequuntur unde tempora, cum architecto? Voluptates non voluptatibus laborum minus est et illum saepe, expedita ducimus ipsa, minima delectus ullam voluptatem doloribus!
-          Expedita velit vitae minima repudiandae, quia doloribus, ea hic cumque voluptatum eligendi iste amet id sint reiciendis. Molestiae dignissimos ab blanditiis doloremque amet nulla sunt, unde dolorem veritatis quasi saepe?</p>
-          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt eaque, vel repellat iure at commodi, accusantium fuga, provident dolor maiores praesentium! Porro corporis ratione reprehenderit maiores, vero in mollitia eveniet?
-          Et, autem vel nostrum quo accusamus mollitia dolorum consequatur doloribus similique! Ipsum dolor aliquam deleniti sed, minus iusto exercitationem alias esse beatae! Accusamus perspiciatis expedita architecto beatae. Quis, voluptates veniam?</p>
+        <p>{project.paragraph_1}</p>
+          <p>{project.paragraph_2}</p>
+          <p>{project.paragraph_3}</p>
 
 
           <h3>Tech Stack</h3>
