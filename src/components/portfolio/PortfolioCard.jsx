@@ -4,7 +4,7 @@ import { FaGlobe } from "react-icons/fa";
 import { Link } from 'react-router-dom';  // Import Link for navigation
 import './projectCard.css'; // Import the CSS file for styling
 
-const ProjectsCard = ({ title, des, url, projectId, githubLink, liveLink }) => {
+const ProjectsCard = ({ title, des, url, projectId, githubLink, typeName }) => {
   return (
     <div className="project-card">
       <div className="image-container">
@@ -14,11 +14,16 @@ const ProjectsCard = ({ title, des, url, projectId, githubLink, liveLink }) => {
           alt="project"
         />
       </div>
-      <div className="details">
+      <div className="details ">
         <div className="title-container">
+          <div>
           <h3 className="project-title">
             {title}
           </h3>
+          <h5 className='pt-1 text-gray-400'>
+            {typeName}
+          </h5>
+          </div>
           <div className="social-icons">
             
             <span className="social-icon">
