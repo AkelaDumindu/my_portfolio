@@ -8,6 +8,8 @@ import { IoMdTrophy } from "react-icons/io";
 import { RiSlideshow2Fill } from "react-icons/ri";
 import { FiMenu } from "react-icons/fi";
 import { Link } from 'react-scroll';
+import { LuGalleryThumbnails } from "react-icons/lu";
+import { VscTools } from "react-icons/vsc";
 
 const Navbar = () => {
   const [activeNav, setActiveNav] = useState('home');
@@ -111,7 +113,7 @@ const Navbar = () => {
           duration={500} 
           onClick={() => handleMenuClick('skills')} 
           className={activeNav === 'skills' ? 'active' : ''}>
-          <HiMiniCheckBadge />
+          <VscTools />
         </Link>
         <Link 
           to="portfolio" 
@@ -127,7 +129,7 @@ const Navbar = () => {
           duration={500} 
           onClick={() => handleMenuClick('gallery')} 
           className={activeNav === 'gallery' ? 'active' : ''}>
-          <IoMdTrophy />
+          <LuGalleryThumbnails />
         </Link>
         <Link 
           to="contact" 
