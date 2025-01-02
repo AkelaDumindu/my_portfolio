@@ -22,6 +22,7 @@
 }
 
 .title-section {
+  width: 100%;
   display: flex;
   text-align: center;
   justify-content: center;
@@ -37,6 +38,7 @@
 }
 
 .mock-image-outer {
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
