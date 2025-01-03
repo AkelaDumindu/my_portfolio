@@ -82,7 +82,7 @@ const ProjectDetails = () => {
   
   {project.demoVideo?.endsWith(".mp4") ? (
     
-    <video controls width="800">
+    <video controls className='vdo-outer'>
      
       <source src={project.demoVideo} type="video/mp4" />
       Your browser does not support the video tag.
