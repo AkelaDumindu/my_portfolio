@@ -33,7 +33,7 @@ export const portfolioData = [
     title: "SUJCS Journal",
     githubLink:"https://github.com/AkelaDumindu/SUJCS_Web_Project.git",
     typeName: "Group Project | Web Site",
-    demoVideo:"../video/campinga-demo.mp4",
+    demoVideo:"../video/sujcs_project_demo.mp4",
     screenshots: ['../images/portfolio/sujcs/sujcs_ss1.jpeg', '../images/portfolio/sujcs/sujcs_ss2.jpeg', '../images/portfolio/sujcs/sujcs_ss3.jpeg', '../images/portfolio/sujcs/sujcs_ss4.jpeg', '../images/portfolio/sujcs/sujcs_ss5.jpeg'],
     category: "web",
     url: "../images/portfolio/sujcs_mock.png",
