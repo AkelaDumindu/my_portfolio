@@ -34,7 +34,7 @@ body {
 }
 
 .section {
-  @apply pt-20 lg:pt-32;
+  @apply pt-2 lg:pt-20;
 }
 
 /* hero page  */
