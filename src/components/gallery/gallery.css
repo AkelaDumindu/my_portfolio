@@ -50,7 +50,31 @@
   position: relative; /* To ensure positioning is relative to the parent container */
 }
 .slide-4 {
-  background: url("../images/galleryImages/4.jpeg") no-repeat center center /
+  background: url("../images/galleryImages/4.JPG") no-repeat center center /
+    cover;
+  width: 600px; /* Ensure it takes up the full width of the parent */
+  height: 520px; /* Ensure it takes up the full height of the parent */
+  position: relative; /* To ensure positioning is relative to the parent container */
+}
+
+.slide-5 {
+  background: url("../images/galleryImages/5.jpg") no-repeat center center /
+    cover;
+  width: 600px; /* Ensure it takes up the full width of the parent */
+  height: 520px; /* Ensure it takes up the full height of the parent */
+  position: relative; /* To ensure positioning is relative to the parent container */
+}
+
+.slide-6 {
+  background: url("../images/galleryImages/6.jpeg") no-repeat center center /
+    cover;
+  width: 600px; /* Ensure it takes up the full width of the parent */
+  height: 520px; /* Ensure it takes up the full height of the parent */
+  position: relative; /* To ensure positioning is relative to the parent container */
+}
+
+.slide-7 {
+  background: url("../images/galleryImages/7.jpg") no-repeat center center /
     cover;
   width: 600px; /* Ensure it takes up the full width of the parent */
   height: 520px; /* Ensure it takes up the full height of the parent */

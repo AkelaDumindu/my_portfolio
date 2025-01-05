@@ -1,5 +1,5 @@
 .skill-section {
-  margin-top: 30px;
+  margin-top: 5rem;
   width: 75%;
   padding: 50px 10px 50px 50px;
   border: 2px solid rgba(255, 255, 255, 0.5);
@@ -22,7 +22,16 @@
 }
 
 .skill-card-outer {
+  margin: 20px 0;
   width: 120px;
   height: 120px;
   flex-direction: column;
+}
+
+.label-outer {
+  padding-top: 20px;
+}
+
+.section-gallery {
+  margin-top: 25px;
 }

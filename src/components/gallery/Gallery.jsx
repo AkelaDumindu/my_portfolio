@@ -8,7 +8,7 @@ import './gallery.css';
 
 const Gallery = () => {
   return (
-    <section className="section">
+    <section className="section-gallery">
       <div className="container">
         <div className="gallery-section">
           <Swiper
@@ -50,12 +50,12 @@ const Gallery = () => {
 
             <SwiperSlide className="swiper-slide slide-2">
               <div className="title">
-                <h1>Codesprint</h1>
+                <h1>Cypher 2.0</h1>
               </div>
               <div className="content">
                 <div className="score">8.6</div>
                 <div className="text">
-                  <h2>Codesprint</h2>
+                  <h2>Cypher 2.0</h2>
                   <p>
                     Amet excepturi ea eum iusto perferendis at labore perspiciatis, ratione saepe
                     facere veniam ex. Similique asperiores aspernatur ab quibusdam voluptatibus
@@ -67,6 +67,24 @@ const Gallery = () => {
             </SwiperSlide>
 
             <SwiperSlide className="swiper-slide slide-3">
+              <div className="title">
+                <h1>Stemup</h1>
+              </div>
+              <div className="content">
+                <div className="score">8.6</div>
+                <div className="text">
+                  <h2>Stemup</h2>
+                  <p>
+                    Amet excepturi ea eum iusto perferendis at labore perspiciatis, ratione saepe
+                    facere veniam ex. Similique asperiores aspernatur ab quibusdam voluptatibus
+                    reiciendis sint, voluptatem cupiditate illo, dicta, porro dolorem atque
+                    incidunt?
+                  </p>
+                </div>
+              </div>
+            </SwiperSlide>
+
+            <SwiperSlide className="swiper-slide slide-4">
               <div className="title">
                 <h1>Codesprint</h1>
               </div>
@@ -84,7 +102,43 @@ const Gallery = () => {
               </div>
             </SwiperSlide>
 
-            <SwiperSlide className="swiper-slide slide-4">
+            <SwiperSlide className="swiper-slide slide-5">
+              <div className="title">
+                <h1>Creative Software</h1>
+              </div>
+              <div className="content">
+                <div className="score">8.6</div>
+                <div className="text">
+                  <h2>Creative Software</h2>
+                  <p>
+                    Amet excepturi ea eum iusto perferendis at labore perspiciatis, ratione saepe
+                    facere veniam ex. Similique asperiores aspernatur ab quibusdam voluptatibus
+                    reiciendis sint, voluptatem cupiditate illo, dicta, porro dolorem atque
+                    incidunt?
+                  </p>
+                </div>
+              </div>
+            </SwiperSlide>
+
+            <SwiperSlide className="swiper-slide slide-6">
+              <div className="title">
+                <h1>Codesprint</h1>
+              </div>
+              <div className="content">
+                <div className="score">8.6</div>
+                <div className="text">
+                  <h2>Codesprint</h2>
+                  <p>
+                    Amet excepturi ea eum iusto perferendis at labore perspiciatis, ratione saepe
+                    facere veniam ex. Similique asperiores aspernatur ab quibusdam voluptatibus
+                    reiciendis sint, voluptatem cupiditate illo, dicta, porro dolorem atque
+                    incidunt?
+                  </p>
+                </div>
+              </div>
+            </SwiperSlide>
+
+            <SwiperSlide className="swiper-slide slide-7">
               <div className="title">
                 <h1>Codesprint</h1>
               </div>

@@ -170,9 +170,9 @@ export const portfolioData = [
 
   {
     id: "eventvibe",
-    title: "Event Vibe",
+    title: "EventVibe",
     githubLink:"https://github.com/AkelaDumindu/EventVibe.git",
-    // typeName: "Individual Project | web",
+    typeName: "Group Project | web",
     demoVideo:"../video/campinga-demo.mp4",
     screenshots: ['../images/portfolio/eventvibe/eventvibe_1.png', '../images/portfolio/eventvibe/eventvibe_2.png', '../images/portfolio/eventvibe/eventvibe_3.png', '../images/portfolio/eventvibe/eventvibe_4.png', '../images/portfolio/eventvibe/eventvibe_5.png', '../images/portfolio/eventvibe/eventvibe_6.png', '../images/portfolio/eventvibe/eventvibe_7.png', '../images/portfolio/eventvibe/eventvibe_8.png', '../images/portfolio/eventvibe/eventvibe_9.png', '../images/portfolio/eventvibe/eventvibe_10.png', '../images/portfolio/eventvibe/eventvibe_11.png', '../images/portfolio/eventvibe/eventvibe_12.png', '../images/portfolio/eventvibe/eventvibe_13.png', '../images/portfolio/eventvibe/eventvibe_14.png'],
     category: "web",
@@ -192,7 +192,105 @@ export const portfolioData = [
     duration: '3 months',
   },
   
- 
+  {
+    id: "herbacommerce",
+    title: "HerbaCommerce",
+    githubLink:"https://github.com/AkelaDumindu/laravel_ecommerce_project.git",
+    typeName: "Individual Project | web",
+    demoVideo:"../video/campinga-demo.mp4",
+    screenshots: ['../images/portfolio/eventvibe/eventvibe_1.png', '../images/portfolio/eventvibe/eventvibe_2.png', '../images/portfolio/eventvibe/eventvibe_3.png', '../images/portfolio/eventvibe/eventvibe_4.png', '../images/portfolio/eventvibe/eventvibe_5.png', '../images/portfolio/eventvibe/eventvibe_6.png', '../images/portfolio/eventvibe/eventvibe_7.png', '../images/portfolio/eventvibe/eventvibe_8.png', '../images/portfolio/eventvibe/eventvibe_9.png', '../images/portfolio/eventvibe/eventvibe_10.png', '../images/portfolio/eventvibe/eventvibe_11.png', '../images/portfolio/eventvibe/eventvibe_12.png', '../images/portfolio/eventvibe/eventvibe_13.png', '../images/portfolio/eventvibe/eventvibe_14.png'],
+    category: "web",
+    url: "../images/portfolio/herbacommerce_mock.png",
+    des: "EventVibe is an online marketplace connecting event planners and clients, featuring responsive design, seamless booking, and efficient data management.",
+    techStack: [
+      { name: 'PHP', logo: '../images/skillImages/php.png' },
+      { name: 'HTML', logo: '../images/skillImages/html.png' },
+      { name: 'MySql', logo: '../images/skillImages/mysql.png' },
+      { name: 'CSS', logo: '../images/skillImages/css.png' }
+    ],
+    // teamMembers: ['Mevin Perera', 'Kushan Andarawewa', 'Ishani Samaraweera', 'Shabeeb Ishque'],
+    paragraph_1:"EventVibe is a pioneering web application designed to transform the event planning process into a seamless, efficient, and collaborative experience. Developed by a team of four skilled developers, the project leverages a comprehensive technology stack, including HTML, CSS, JavaScript, and Bootstrap for the front-end design, and PHP with MySQL for robust back-end functionality and database management. The platform aspires to become a dynamic online marketplace that bridges the gap between event planners and clients, offering a streamlined approach to finding and managing event services.",
+    paragraph_2:"At its core, EventVibe provides a user-friendly and responsive interface that adapts to various devices, ensuring an optimal browsing experience for all users. The platform facilitates direct interaction between event planners and clients, powered by a well-structured back-end system using PHP. This dynamic connectivity simplifies the booking process while enabling event planners to showcase their expertise effectively. With MySQL ensuring secure and efficient data handling, the system guarantees reliability for user profiles, service listings, and booking management.",
+    paragraph_3:"EventVibe embodies a mission to enhance the event planning experience by offering a centralized, collaborative platform for clients and service providers. Through its innovative features and intuitive design, the project envisions empowering event planners to expand their reach and enabling clients to find the perfect match for their unique event needs. This collaborative endeavor not only showcases the technical expertise of its developers but also addresses the evolving landscape of event planning in today’s digital age.",
+    role: 'Full Stack Development',
+    duration: '3 months',
+  },
+
+
+  {
+    id: "chatterPlannet",
+    title: "ChatterPlannet",
+    githubLink:"https://github.com/AkelaDumindu/chatter_planet_application.git",
+    typeName: "Individual Project | App",
+    demoVideo:"",
+    // screenshots: ['../images/portfolio/eventvibe/eventvibe_1.png', '../images/portfolio/eventvibe/eventvibe_2.png', '../images/portfolio/eventvibe/eventvibe_3.png', '../images/portfolio/eventvibe/eventvibe_4.png', '../images/portfolio/eventvibe/eventvibe_5.png', '../images/portfolio/eventvibe/eventvibe_6.png', '../images/portfolio/eventvibe/eventvibe_7.png', '../images/portfolio/eventvibe/eventvibe_8.png', '../images/portfolio/eventvibe/eventvibe_9.png', '../images/portfolio/eventvibe/eventvibe_10.png', '../images/portfolio/eventvibe/eventvibe_11.png', '../images/portfolio/eventvibe/eventvibe_12.png', '../images/portfolio/eventvibe/eventvibe_13.png', '../images/portfolio/eventvibe/eventvibe_14.png'],
+    category: "app",
+    url: "../images/portfolio/chatterplannet_mock.png",
+    des: "ChatterPlanet is a Flutter-based social media app with Google Authentication, enabling users to share posts, follow others, and connect seamlessly.",
+    techStack: [
+      { name: 'Flutter', logo: '../images/skillImages/flutter.png' },
+      { name: 'Firebase', logo: '../images/skillImages/firebase.png' },
+      // { name: 'MySql', logo: '../images/skillImages/mysql.png' },
+      // { name: 'CSS', logo: '../images/skillImages/css.png' }
+    ],
+    // teamMembers: ['Mevin Perera', 'Kushan Andarawewa', 'Ishani Samaraweera', 'Shabeeb Ishque'],
+    paragraph_1:"ChatterPlanet is an innovative social media application inspired by platforms like Instagram. Designed for seamless user engagement, the app enables individuals to connect, share, and interact with a global community. Users can effortlessly sign up and log in using their Google accounts, thanks to the integration of Google Authentication. This feature ensures a secure, efficient, and user-friendly onboarding experience.",
+    paragraph_2:"The app’s primary functionality revolves around social connectivity. Users can follow others to view their posts, images, and updates directly on their feed. Similarly, their followers can engage with their content, fostering a dynamic and interactive social environment. With real-time updates and smooth navigation, ChatterPlanet provides an immersive experience that keeps users connected.",
+    paragraph_3:"ChatterPlanet leverages the power of Flutter for cross-platform development, ensuring a responsive and visually appealing interface. Firebase serves as the robust backend, managing user authentication, data storage, and real-time database interactions. Advanced state management and efficient routing techniques are implemented to enhance application performance, ensuring a seamless and engaging user experience.",
+    role: 'Full Stack Development',
+    duration: '3 months',
+  },
+
+
+  {
+    id: "uniNoteMaster",
+    title: "UniNoteMaster",
+    githubLink:"https://github.com/AkelaDumindu/flutter_app4_UniNoteMaster.git",
+    typeName: "Individual Project | App",
+    demoVideo:"",
+    // screenshots: ['../images/portfolio/eventvibe/eventvibe_1.png', '../images/portfolio/eventvibe/eventvibe_2.png', '../images/portfolio/eventvibe/eventvibe_3.png', '../images/portfolio/eventvibe/eventvibe_4.png', '../images/portfolio/eventvibe/eventvibe_5.png', '../images/portfolio/eventvibe/eventvibe_6.png', '../images/portfolio/eventvibe/eventvibe_7.png', '../images/portfolio/eventvibe/eventvibe_8.png', '../images/portfolio/eventvibe/eventvibe_9.png', '../images/portfolio/eventvibe/eventvibe_10.png', '../images/portfolio/eventvibe/eventvibe_11.png', '../images/portfolio/eventvibe/eventvibe_12.png', '../images/portfolio/eventvibe/eventvibe_13.png', '../images/portfolio/eventvibe/eventvibe_14.png'],
+    category: "app",
+    url: "../images/portfolio/uninotemaster_mock.png",
+    des: "UniNoteMaster is a Flutter app enabling students to manage assignments, tasks, and notes by semester and subject with progress tracking.",
+    techStack: [
+      { name: 'Flutter', logo: '../images/skillImages/flutter.png' },
+      // { name: 'Firebase', logo: '../images/skillImages/firebase.png' },
+      // { name: 'MySql', logo: '../images/skillImages/mysql.png' },
+      // { name: 'CSS', logo: '../images/skillImages/css.png' }
+    ],
+    // teamMembers: ['Mevin Perera', 'Kushan Andarawewa', 'Ishani Samaraweera', 'Shabeeb Ishque'],
+    paragraph_1:"UniNoteMaster is a streamlined Flutter-based application designed to help students effectively manage their academic responsibilities. With a focus on organization and usability, the app empowers students to track assignments, tasks, and notes by aligning them with their specific semesters and subjects. Its intuitive interface ensures that users can effortlessly access and update their academic information.",
+    paragraph_2:"The app allows students to create and organize notes based on their courses and subjects, ensuring quick retrieval and systematic arrangement. Users can also track their academic progress, with completed tasks visually represented using a progress bar for an easy understanding of their achievements. UniNoteMaster is built with efficient Flutter routing to ensure smooth navigation, offering a seamless user experience.",
+    paragraph_3:"UniNoteMaster leverages the power of Flutter for a robust, cross-platform interface and Hive as a lightweight local database for offline data storage. This combination ensures both high performance and flexibility, making UniNoteMaster an indispensable tool for students aiming to optimize their academic journey.",
+    role: 'Full Stack Development',
+    duration: '3 months',
+  },
+
+
+  {
+    id: "flutter_statemanagemnet",
+    title: "Small State Management App",
+    githubLink:"https://github.com/AkelaDumindu/flutter_stateManagement.git",
+    typeName: "Individual Project | App",
+    demoVideo:"",
+    // screenshots: ['../images/portfolio/eventvibe/eventvibe_1.png', '../images/portfolio/eventvibe/eventvibe_2.png', '../images/portfolio/eventvibe/eventvibe_3.png', '../images/portfolio/eventvibe/eventvibe_4.png', '../images/portfolio/eventvibe/eventvibe_5.png', '../images/portfolio/eventvibe/eventvibe_6.png', '../images/portfolio/eventvibe/eventvibe_7.png', '../images/portfolio/eventvibe/eventvibe_8.png', '../images/portfolio/eventvibe/eventvibe_9.png', '../images/portfolio/eventvibe/eventvibe_10.png', '../images/portfolio/eventvibe/eventvibe_11.png', '../images/portfolio/eventvibe/eventvibe_12.png', '../images/portfolio/eventvibe/eventvibe_13.png', '../images/portfolio/eventvibe/eventvibe_14.png'],
+    category: "practice",
+    url: "../images/portfolio/flutterstatemanagement_mock.jpg",
+    des: "This is the small application that focus on flutter practice to flutter state management properly",
+    techStack: [
+      // { name: 'Flutter', logo: '../images/skillImages/flutter.png' },
+      // { name: 'Firebase', logo: '../images/skillImages/.png' },
+      // { name: 'MySql', logo: '../images/skillImages/mysql.png' },
+      // { name: 'CSS', logo: '../images/skillImages/css.png' }
+    ],
+    // teamMembers: ['Mevin Perera', 'Kushan Andarawewa', 'Ishani Samaraweera', 'Shabeeb Ishque'],
+    // paragraph_1:"EventVibe is a pioneering web application designed to transform the event planning process into a seamless, efficient, and collaborative experience. Developed by a team of four skilled developers, the project leverages a comprehensive technology stack, including HTML, CSS, JavaScript, and Bootstrap for the front-end design, and PHP with MySQL for robust back-end functionality and database management. The platform aspires to become a dynamic online marketplace that bridges the gap between event planners and clients, offering a streamlined approach to finding and managing event services.",
+    // paragraph_2:"At its core, EventVibe provides a user-friendly and responsive interface that adapts to various devices, ensuring an optimal browsing experience for all users. The platform facilitates direct interaction between event planners and clients, powered by a well-structured back-end system using PHP. This dynamic connectivity simplifies the booking process while enabling event planners to showcase their expertise effectively. With MySQL ensuring secure and efficient data handling, the system guarantees reliability for user profiles, service listings, and booking management.",
+    // paragraph_3:"EventVibe embodies a mission to enhance the event planning experience by offering a centralized, collaborative platform for clients and service providers. Through its innovative features and intuitive design, the project envisions empowering event planners to expand their reach and enabling clients to find the perfect match for their unique event needs. This collaborative endeavor not only showcases the technical expertise of its developers but also addresses the evolving landscape of event planning in today’s digital age.",
+    role: 'Full Stack Development',
+    duration: '3 months',
+  }
+
 ];
 
 const Portfolio = () => {

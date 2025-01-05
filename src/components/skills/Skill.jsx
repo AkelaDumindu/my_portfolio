@@ -68,7 +68,7 @@ const skillItem = [
 
       {
         imgSrc: '/images/skillImages/python.png',
-        label: 'Tailwind',
+        label: ':Python',
         desc: 'Programming Language'
       },
 
@@ -82,6 +82,12 @@ const skillItem = [
       {
         imgSrc: '/images/skillImages/firebase.png',
         label: 'Firebase',
+        desc: 'Programming Language'
+      },
+
+      {
+        imgSrc: '/images/skillImages/firebase.png',
+        label: 'Express',
         desc: 'Programming Language'
       }
   ];
@@ -101,7 +107,7 @@ const Skill = () => {
             </div>
           
 
-            <div className='grid justify-center items-center gap-3 grid-cols-[repeat(auto-fill,_minmax(150px,_1fr))]'>
+            <div className='grid justify-center items-center gap-4 grid-cols-[repeat(auto-fill,_minmax(150px,_1fr))]'>
                 {
                     skillItem.map(({imgSrc, label, desc}, key)=>(
                         <SkillCard 
