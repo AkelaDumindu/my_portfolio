@@ -86,7 +86,7 @@ const skillItem = [
       },
 
       {
-        imgSrc: '/images/skillImages/firebase.png',
+        imgSrc: '/images/skillImages/mysql.png',
         label: 'Express',
         desc: 'Programming Language'
       }

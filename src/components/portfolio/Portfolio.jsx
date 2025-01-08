@@ -248,7 +248,7 @@ export const portfolioData = [
     githubLink:"https://github.com/AkelaDumindu/flutter_app4_UniNoteMaster.git",
     typeName: "Individual Project | App",
     demoVideo:"",
-    // screenshots: ['../images/portfolio/eventvibe/eventvibe_1.png', '../images/portfolio/eventvibe/eventvibe_2.png', '../images/portfolio/eventvibe/eventvibe_3.png', '../images/portfolio/eventvibe/eventvibe_4.png', '../images/portfolio/eventvibe/eventvibe_5.png', '../images/portfolio/eventvibe/eventvibe_6.png', '../images/portfolio/eventvibe/eventvibe_7.png', '../images/portfolio/eventvibe/eventvibe_8.png', '../images/portfolio/eventvibe/eventvibe_9.png', '../images/portfolio/eventvibe/eventvibe_10.png', '../images/portfolio/eventvibe/eventvibe_11.png', '../images/portfolio/eventvibe/eventvibe_12.png', '../images/portfolio/eventvibe/eventvibe_13.png', '../images/portfolio/eventvibe/eventvibe_14.png'],
+    screenshots: ['../images/portfolio/uninotemaster/unin1.png', '../images/portfolio/uninotemaster/unin2.png', '../images/portfolio/uninotemaster/unin3.png'],
     category: "app",
     url: "../images/portfolio/uninotemaster_mock.png",
     des: "UniNoteMaster is a Flutter app enabling students to manage assignments, tasks, and notes by semester and subject with progress tracking.",
@@ -278,7 +278,7 @@ export const portfolioData = [
     url: "../images/portfolio/flutterstatemanagement_mock.jpg",
     des: "This is the small application that focus on flutter practice to flutter state management properly",
     techStack: [
-      // { name: 'Flutter', logo: '../images/skillImages/flutter.png' },
+      { name: 'Flutter', logo: '../images/skillImages/flutter.png' },
       // { name: 'Firebase', logo: '../images/skillImages/.png' },
       // { name: 'MySql', logo: '../images/skillImages/mysql.png' },
       // { name: 'CSS', logo: '../images/skillImages/css.png' }
