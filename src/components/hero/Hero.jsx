@@ -4,7 +4,7 @@ import { FaLinkedin } from "react-icons/fa6";
 import { FaInstagramSquare } from "react-icons/fa";
 import JobRole from '../role/JobRole';
 import { RxDoubleArrowDown } from "react-icons/rx";
-import CV from "./cv/Akela_Dumindu_CV.pdf"
+import CV from "./cv/CV_Akela_Dumindu.pdf"
 
 const Hero = () => {
   return (

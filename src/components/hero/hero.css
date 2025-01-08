@@ -95,25 +95,25 @@
 .theme-btn:hover {
   background: none;
   color: #fff;
-  border-color: rgba(56, 189, 248); /* Purple border on focus */
+  border-color: rgba(56, 189, 248);
   box-shadow: 0 0 4px rgba(56, 189, 248);
 }
-/* Create the outer and inner border effect */
+
 .hero-theme {
   width: 75%;
   height: 700px;
-  padding: 50px; /* Adjust padding to control space inside the element */
+  padding: 50px; 
   border: 2px solid rgba(255, 255, 255, 0.5);
   border-radius: 30px;
   position: relative;
-  background-color: transparent; /* No background color */
+  background-color: transparent; 
 }
 
-/* Create the outer border using ::after pseudo-element */
+*/
 .hero-theme::after {
   content: "";
   position: absolute;
-  top: -4px; /* Adjust to control the space between the inner and outer border */
+  top: -4px; 
   left: -4px;
   right: -4px;
   bottom: -4px;
@@ -185,27 +185,24 @@
 
 .image-pos {
   position: fixed;
-  top: 10px; /* Adjust to where you want the image to appear */
-  right: 20px; /* Adjust this to position it horizontally */
-  z-index: 10; /* Make sure the image stays on top */
-  width: 420px; /* Or whatever the fixed size of the image should be */
+  top: 10px; 
+  right: 20px; 
+  z-index: 10; 
+  width: 420px; 
   height: auto;
   background-color: rgba(255, 255, 255, 0.05);
   border-radius: 30px;
-  border: 2px solid rgba(255, 255, 255, 0.5); /* Light border for glass effect */
-  backdrop-filter: blur(10px); /* Apply blur for glass effect */
-  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2); /* Slight shadow for depth */
-  transition: box-shadow 0.3s ease; /* Smooth transition */
-  /* position: fixed; */
-  /* left: 20px; */
+  border: 2px solid rgba(255, 255, 255, 0.5); 
+  backdrop-filter: blur(10px); 
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  transition: box-shadow 0.3s ease;
 
-  /* transform: translateY(-50%); */
   padding: 20px 50px;
   z-index: 10;
-  bottom: 10px; /* Maintain aspect ratio */
+  bottom: 10px; 
 }
 
-/*scroll button*/
+
 
 .scroll-button {
   top: 10px;
@@ -226,7 +223,7 @@
 .scroll-button:hover {
   background: none;
   color: #fff;
-  border-color: rgba(56, 189, 248); /* Purple border on focus */
+  border-color: rgba(56, 189, 248); 
   box-shadow: 0 0 4px rgba(56, 189, 248);
 }
 
