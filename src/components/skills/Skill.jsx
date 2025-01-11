@@ -135,7 +135,7 @@ const Skill = () => {
             </div>
           
 
-            <div className='grid justify-center items-center gap-4 grid-cols-[repeat(auto-fill,_minmax(150px,_1fr))]'>
+            <div className='grid-container'>
                 {
                     skillItem.map(({imgSrc, label, desc}, key)=>(
                         <SkillCard 

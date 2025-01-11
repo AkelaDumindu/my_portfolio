@@ -275,7 +275,6 @@ export const portfolioData = [
     category: "practice",
     url: "../images/portfolio/flutterstatemanagement_mock.jpg",
     des: "A simple POS system built with React and Vite, featuring CRUD operations and user authentication. Check out the .",
-    webUrl:"https://github.com/AkelaDumindu/React_Simple_POS_System.git",
     
     techStack: [
         { name: "React", logo: "../images/skillImages/react.png" },
@@ -292,6 +291,54 @@ export const portfolioData = [
     paragraph_3: "This POS system is not only a practical tool for managing products and orders but also a valuable learning experience. By integrating various technologies and implementing CRUD operations, the project demonstrates the power of full-stack development. It serves as a testament to the effectiveness of combining React with modern backend tools to deliver a dynamic and user-friendly application.",
     role: "",
     duration: "3 months"
+}
+,
+
+{
+  id: "angular_practice1",
+  title: "Angular Application",
+  githubLink: "https://github.com/AkelaDumindu/angular_app/tree/main/app4_firebase_CRUD",
+  typeName: "Individual Project | Practice",
+  demoVideo: "",
+  // screenshots: ['../images/portfolio/eventvibe/eventvibe_1.png', '../images/portfolio/eventvibe/eventvibe_2.png', '../images/portfolio/eventvibe/eventvibe_3.png', '../images/portfolio/eventvibe/eventvibe_4.png', '../images/portfolio/eventvibe/eventvibe_5.png', '../images/portfolio/eventvibe/eventvibe_6.png', '../images/portfolio/eventvibe/eventvibe_7.png', '../images/portfolio/eventvibe/eventvibe_8.png', '../images/portfolio/eventvibe/eventvibe_9.png', '../images/portfolio/eventvibe/eventvibe_10.png', '../images/portfolio/eventvibe/eventvibe_11.png', '../images/portfolio/eventvibe/eventvibe_12.png', '../images/portfolio/eventvibe/eventvibe_13.png', '../images/portfolio/eventvibe/eventvibe_14.png'],
+  category: "practice",
+  url: "../images/portfolio/flutterstatemanagement_mock.jpg",
+  des: "A simple POS system built with React and Vite, featuring CRUD operations and user authentication. Check out the .",
+  
+  techStack: [
+      { name: "Angular", logo: "../images/skillImages/angular.png" },
+      { name: "Type Script", logo: "../images/skillImages/ts.png" },
+      { name: "Firebase", logo: "../images/skillImages/firebase.png" },
+      { name: "Bootstrap", logo: "../images/skillImages/bootstrap.png" },
+  ],
+  // teamMembers: ["Mevin Perera", "Kushan Andarawewa", "Ishani Samaraweera", "Shabeeb Ishque"],
+  paragraph_1: "This project is a simple Point of Sale (POS) system designed to streamline inventory and order management. It features user authentication, allowing users to securely register and log in using their email and password. Once authenticated, users can access a robust set of functionalities, including adding, updating, deleting, and viewing products. The system also tracks user orders, offering a centralized view of all orders along with graphical representations of data for better decision-making and analysis.",
+  paragraph_2: "The frontend of the system is built with React using Vite, ensuring a fast and efficient user interface. For navigation, React Router enhances the user experience by providing seamless page transitions. The backend is powered by Node.js and Express, offering a reliable foundation for API development. MongoDB serves as the database, ensuring efficient and scalable data storage, while Firebase handles authentication for secure user management. Axios is used for smooth communication between the frontend and backend.",
+  paragraph_3: "This POS system is not only a practical tool for managing products and orders but also a valuable learning experience. By integrating various technologies and implementing CRUD operations, the project demonstrates the power of full-stack development. It serves as a testament to the effectiveness of combining React with modern backend tools to deliver a dynamic and user-friendly application.",
+  role: "",
+  duration: "3 months"
+},
+
+{
+  id: "spring_practice1",
+  title: "Spring Boot Pos System",
+  githubLink: "https://github.com/AkelaDumindu/spring_boot_pos_crud.git",
+  typeName: "Individual Project | Practice",
+  demoVideo: "",
+  // screenshots: ['../images/portfolio/eventvibe/eventvibe_1.png', '../images/portfolio/eventvibe/eventvibe_2.png', '../images/portfolio/eventvibe/eventvibe_3.png', '../images/portfolio/eventvibe/eventvibe_4.png', '../images/portfolio/eventvibe/eventvibe_5.png', '../images/portfolio/eventvibe/eventvibe_6.png', '../images/portfolio/eventvibe/eventvibe_7.png', '../images/portfolio/eventvibe/eventvibe_8.png', '../images/portfolio/eventvibe/eventvibe_9.png', '../images/portfolio/eventvibe/eventvibe_10.png', '../images/portfolio/eventvibe/eventvibe_11.png', '../images/portfolio/eventvibe/eventvibe_12.png', '../images/portfolio/eventvibe/eventvibe_13.png', '../images/portfolio/eventvibe/eventvibe_14.png'],
+  category: "practice",
+  url: "../images/portfolio/flutterstatemanagement_mock.jpg",
+  des: "A simple POS system built with React and Vite, featuring CRUD operations and user authentication. Check out the .",
+  
+  techStack: [
+      { name: "Spring Boot", logo: "../images/skillImages/react.png" },
+  ],
+  // teamMembers: ["Mevin Perera", "Kushan Andarawewa", "Ishani Samaraweera", "Shabeeb Ishque"],
+  paragraph_1: "This project is a simple Point of Sale (POS) system designed to streamline inventory and order management. It features user authentication, allowing users to securely register and log in using their email and password. Once authenticated, users can access a robust set of functionalities, including adding, updating, deleting, and viewing products. The system also tracks user orders, offering a centralized view of all orders along with graphical representations of data for better decision-making and analysis.",
+  paragraph_2: "The frontend of the system is built with React using Vite, ensuring a fast and efficient user interface. For navigation, React Router enhances the user experience by providing seamless page transitions. The backend is powered by Node.js and Express, offering a reliable foundation for API development. MongoDB serves as the database, ensuring efficient and scalable data storage, while Firebase handles authentication for secure user management. Axios is used for smooth communication between the frontend and backend.",
+  paragraph_3: "This POS system is not only a practical tool for managing products and orders but also a valuable learning experience. By integrating various technologies and implementing CRUD operations, the project demonstrates the power of full-stack development. It serves as a testament to the effectiveness of combining React with modern backend tools to deliver a dynamic and user-friendly application.",
+  role: "",
+  duration: "3 months"
 }
 ,
 
