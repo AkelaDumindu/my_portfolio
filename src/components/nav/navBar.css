@@ -1,5 +1,5 @@
 nav {
-  background: rgba(98, 98, 98, 0.3); /* Slightly transparent background */
+  background: rgba(98, 98, 98, 0.3); 
   width: max-content;
   padding: 0.7rem 0.7rem;
   z-index: 2;
@@ -11,9 +11,9 @@ nav {
   flex-direction: column;
   gap: 1rem;
   border-radius: 3rem;
-  backdrop-filter: blur(15px); /* Apply blur for glass effect */
-  border: 2px solid rgba(255, 255, 255, 0.5); /* Light border for glass effect */
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Slight shadow for depth */
+  backdrop-filter: blur(15px); 
+  border: 2px solid rgba(255, 255, 255, 0.5); 
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); 
 }
 
 nav a {
@@ -191,5 +191,9 @@ nav a.active {
 @media screen and (max-width: 768px) {
   nav {
     display: none;
+  }
+
+  .static-image{
+    margin: 0;
   }
 }

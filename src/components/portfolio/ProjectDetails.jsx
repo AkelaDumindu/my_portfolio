@@ -93,7 +93,9 @@ const ProjectDetails = () => {
               <p>No screenshots available.</p>
             )}
           </div>
+          <p className="copyright mt-14 mb-8">&copy; 2024 Akela. All Rights Reserved</p>
         </div>
+        
       </div>
     </section>
   );

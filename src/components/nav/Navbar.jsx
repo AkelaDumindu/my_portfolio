@@ -60,22 +60,18 @@ const Navbar = () => {
               </li>
               <li>
                 <a className="scroll-to" href="#resume" onClick={() => handleMenuClick('resume')}>
-                  <HiMiniCheckBadge /> <span>Resume</span>
-                </a>
-              </li>
-              <li>
-                <a className="scroll-to" href="#services" onClick={() => handleMenuClick('services')}>
-                  <RiSlideshow2Fill /> <span>Services</span>
-                </a>
-              </li>
-              <li>
-                <a className="scroll-to" href="#skills" onClick={() => handleMenuClick('skills')}>
                   <HiMiniCheckBadge /> <span>Skills</span>
                 </a>
               </li>
+              
               <li>
                 <a className="scroll-to" href="#portfolio" onClick={() => handleMenuClick('portfolio')}>
                   <RiSlideshow2Fill /> <span>Portfolio</span>
+                </a>
+              </li>
+              <li>
+                <a className="scroll-to" href="#gallery" onClick={() => handleMenuClick('gallery')}>
+                <LuGalleryThumbnails /> <span>Gallery</span>
                 </a>
               </li>
               <li>
