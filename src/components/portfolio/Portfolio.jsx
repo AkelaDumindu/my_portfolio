@@ -83,7 +83,7 @@ export const portfolioData = [
     githubLink:"https://github.com/AkelaDumindu/Learn-and-Earn.git",
     typeName: "Group Project | Web Site",
     demoVideo:"../video/learnearn_demo.mp4",
-    screenshots: ['../images/portfolio/learn&ern/learnearn1.png', '../images/portfolio/learn&ern/learnearn2.png', '../images/portfolio/learn&ern/learnearn3.png', '../images/portfolio/learn&ern/learnearn4.png', '../images/portfolio/learn&ern/learnearn5.png', '../images/portfolio/learn&ern/learnearn6.png'],
+    screenshots: ['../images/portfolio/learn&earn/learnearn1.png', '../images/portfolio/learn&earn/learnearn2.png', '../images/portfolio/learn&earn/learnearn3.png', '../images/portfolio/learn&earn/learnearn4.png', '../images/portfolio/learn&earn/learnearn5.png', '../images/portfolio/learn&earn/learnearn6.png'],
     category: "web",
     url: "../images/portfolio/learn_earn_mock.png",
     des: "Learn&Earn integrates education and e-commerce, offering products and learning opportunities through a robust PHP, MySQL, HTML, and JavaScript platform.",
@@ -264,6 +264,32 @@ export const portfolioData = [
     duration: '3 months',
   },
 
+  {
+    id: "handyhire",
+    title: "HandyHire",
+    githubLink:"https://github.com/AkelaDumindu/HandyHire-Services-Platform.git",
+    typeName: "Individual | Web | Ongoing",
+    demoVideo:"",
+    // screenshots: ['../images/portfolio/eventvibe/eventvibe_1.png', '../images/portfolio/eventvibe/eventvibe_2.png', '../images/portfolio/eventvibe/eventvibe_3.png', '../images/portfolio/eventvibe/eventvibe_4.png', '../images/portfolio/eventvibe/eventvibe_5.png', '../images/portfolio/eventvibe/eventvibe_6.png', '../images/portfolio/eventvibe/eventvibe_7.png', '../images/portfolio/eventvibe/eventvibe_8.png', '../images/portfolio/eventvibe/eventvibe_9.png', '../images/portfolio/eventvibe/eventvibe_10.png', '../images/portfolio/eventvibe/eventvibe_11.png', '../images/portfolio/eventvibe/eventvibe_12.png', '../images/portfolio/eventvibe/eventvibe_13.png', '../images/portfolio/eventvibe/eventvibe_14.png'],
+    category: "web",
+    url: "../images/portfolio/handyhire_mock.png",
+    des: "HandyHire connects users with skilled service providers, offering categorized services, user reviews, secure authentication, and admin management.",
+    techStack: [
+      { name: 'Angular', logo: '../images/skillImages/angular.png' },
+      { name: 'Speing Boot', logo: '../images/skillImages/springboot.png' },
+      { name: 'Type Script', logo: '../images/skillImages/ts.png' },
+      { name: 'MySQL', logo: '../images/skillImages/mysql.png' },
+      { name: 'Firebase', logo: '../images/skillImages/firebase.png' },
+      // { name: 'MySql', logo: '../images/skillImages/mysql.png' },
+      // { name: 'CSS', logo: '../images/skillImages/css.png' }
+    ],
+    // teamMembers: ['Mevin Perera', 'Kushan Andarawewa', 'Ishani Samaraweera', 'Shabeeb Ishque'],
+    paragraph_1:"HandyHire is a web-based application designed to simplify the process of hiring skilled service providers, such as electricians, technicians, and laborers, across various categories. The platform connects users with service providers based on their specific needs, offering a streamlined experience for both parties. Users can log in using secure authentication credentials, explore service providers by category, and make informed decisions through reviews and ratings from other users.",
+    paragraph_2:"The application is built with a robust technology stack, including Angular for the front end, Spring Boot for backend development, and MySQL for database management. The admin interface empowers administrators to manage the platform by adding and maintaining service provider details. Users can leave feedback after hiring, enabling the system to recommend top-rated service providers. This feedback mechanism ensures quality and reliability, fostering trust within the HandyHire community.",
+    paragraph_3:"Future enhancements include a tracking feature that will allow users to locate service providers by district. This functionality will further personalize the user experience and improve accessibility for both urban and rural areas. HandyHire not only addresses the challenge of finding skilled workers efficiently but also serves as a foundation for further innovation in the service marketplace.",
+    role: 'Full Stack Development',
+    duration: 'Ongoing',
+  },
 
   {
     id: "uniNoteMaster",
@@ -297,7 +323,7 @@ export const portfolioData = [
     demoVideo: "",
     // screenshots: ['../images/portfolio/eventvibe/eventvibe_1.png', '../images/portfolio/eventvibe/eventvibe_2.png', '../images/portfolio/eventvibe/eventvibe_3.png', '../images/portfolio/eventvibe/eventvibe_4.png', '../images/portfolio/eventvibe/eventvibe_5.png', '../images/portfolio/eventvibe/eventvibe_6.png', '../images/portfolio/eventvibe/eventvibe_7.png', '../images/portfolio/eventvibe/eventvibe_8.png', '../images/portfolio/eventvibe/eventvibe_9.png', '../images/portfolio/eventvibe/eventvibe_10.png', '../images/portfolio/eventvibe/eventvibe_11.png', '../images/portfolio/eventvibe/eventvibe_12.png', '../images/portfolio/eventvibe/eventvibe_13.png', '../images/portfolio/eventvibe/eventvibe_14.png'],
     category: "practice",
-    url: "../images/portfolio/flutterstatemanagement_mock.jpg",
+    url: "../images/portfolio/reactpos_mock.png",
     des: "A simple POS system built with React and Vite, featuring CRUD operations and user authentication. Check out the .",
     
     techStack: [
@@ -327,7 +353,7 @@ export const portfolioData = [
   // screenshots: ['../images/portfolio/eventvibe/eventvibe_1.png', '../images/portfolio/eventvibe/eventvibe_2.png', '../images/portfolio/eventvibe/eventvibe_3.png', '../images/portfolio/eventvibe/eventvibe_4.png', '../images/portfolio/eventvibe/eventvibe_5.png', '../images/portfolio/eventvibe/eventvibe_6.png', '../images/portfolio/eventvibe/eventvibe_7.png', '../images/portfolio/eventvibe/eventvibe_8.png', '../images/portfolio/eventvibe/eventvibe_9.png', '../images/portfolio/eventvibe/eventvibe_10.png', '../images/portfolio/eventvibe/eventvibe_11.png', '../images/portfolio/eventvibe/eventvibe_12.png', '../images/portfolio/eventvibe/eventvibe_13.png', '../images/portfolio/eventvibe/eventvibe_14.png'],
   category: "practice",
   url: "../images/portfolio/angular_pos.jpg",
-  des: "A simple POS system built with React and Vite, featuring CRUD operations and user authentication. Check out the .",
+  des: "A practice project using Angular to learn components, routing, and CRUD operations, featuring Firebase integration and a responsive design.",
   
   techStack: [
       { name: "Angular", logo: "../images/skillImages/angular.png" },
@@ -336,9 +362,9 @@ export const portfolioData = [
       { name: "Bootstrap", logo: "../images/skillImages/bootstrap.png" },
   ],
   // teamMembers: ["Mevin Perera", "Kushan Andarawewa", "Ishani Samaraweera", "Shabeeb Ishque"],
-  paragraph_1: "This project is a simple Point of Sale (POS) system designed to streamline inventory and order management. It features user authentication, allowing users to securely register and log in using their email and password. Once authenticated, users can access a robust set of functionalities, including adding, updating, deleting, and viewing products. The system also tracks user orders, offering a centralized view of all orders along with graphical representations of data for better decision-making and analysis.",
-  paragraph_2: "The frontend of the system is built with React using Vite, ensuring a fast and efficient user interface. For navigation, React Router enhances the user experience by providing seamless page transitions. The backend is powered by Node.js and Express, offering a reliable foundation for API development. MongoDB serves as the database, ensuring efficient and scalable data storage, while Firebase handles authentication for secure user management. Axios is used for smooth communication between the frontend and backend.",
-  paragraph_3: "This POS system is not only a practical tool for managing products and orders but also a valuable learning experience. By integrating various technologies and implementing CRUD operations, the project demonstrates the power of full-stack development. It serves as a testament to the effectiveness of combining React with modern backend tools to deliver a dynamic and user-friendly application.",
+  paragraph_1: "The Angular POS System is a practice project developed to explore the fundamentals of Angular and its core features. This system streamlines product and order management through CRUD (Create, Read, Update, Delete) operations. The project incorporates essential functionalities such as user authentication, allowing secure login and management of users, and enables efficient handling of product data. The system demonstrates how Angular can be utilized to build robust and dynamic web applications, making it a valuable tool for learning and experimentation.",
+  paragraph_2: "Built with Angular Framework and TypeScript, the project showcases the power of component-based architecture and modular development. Angular's routing capabilities are leveraged to provide seamless navigation between different sections of the system, ensuring a smooth user experience. The frontend design is enhanced using SCSS and Bootstrap, which offer responsive and visually appealing layouts. Firebase is integrated into the application to manage authentication and real-time data storage, enabling secure and scalable user management and database functionalities.",
+  paragraph_3: "Through this project, I gained hands-on experience in Angular's two-way data binding, services, and dependency injection. It was instrumental in deepening my understanding of component interactions and state management. Beyond technical skills, this practice project honed my ability to design user-friendly interfaces and implement efficient backend communication. The Angular POS System stands as a testament to my learning journey, highlighting my growth as a developer and my enthusiasm for exploring new technologies.",
   role: "",
   duration: "3 months"
 },
@@ -351,8 +377,8 @@ export const portfolioData = [
   demoVideo: "",
   // screenshots: ['../images/portfolio/eventvibe/eventvibe_1.png', '../images/portfolio/eventvibe/eventvibe_2.png', '../images/portfolio/eventvibe/eventvibe_3.png', '../images/portfolio/eventvibe/eventvibe_4.png', '../images/portfolio/eventvibe/eventvibe_5.png', '../images/portfolio/eventvibe/eventvibe_6.png', '../images/portfolio/eventvibe/eventvibe_7.png', '../images/portfolio/eventvibe/eventvibe_8.png', '../images/portfolio/eventvibe/eventvibe_9.png', '../images/portfolio/eventvibe/eventvibe_10.png', '../images/portfolio/eventvibe/eventvibe_11.png', '../images/portfolio/eventvibe/eventvibe_12.png', '../images/portfolio/eventvibe/eventvibe_13.png', '../images/portfolio/eventvibe/eventvibe_14.png'],
   category: "practice",
-  url: "../images/portfolio/springboot.jpg",
-  des: "A simple POS system built with React and Vite, featuring CRUD operations and user authentication. Check out the .",
+  url: "../images/portfolio/spring_boot_mock.jpg",
+  des: "A practice project using Angular to learn components, routing, and CRUD operations, featuring Firebase integration and a responsive design.",
   
   techStack: [
       { name: "Spring Boot", logo: "../images/skillImages/react.png" },
@@ -361,6 +387,29 @@ export const portfolioData = [
   paragraph_1: "This project is a simple Point of Sale (POS) system designed to streamline inventory and order management. It features user authentication, allowing users to securely register and log in using their email and password. Once authenticated, users can access a robust set of functionalities, including adding, updating, deleting, and viewing products. The system also tracks user orders, offering a centralized view of all orders along with graphical representations of data for better decision-making and analysis.",
   paragraph_2: "The frontend of the system is built with React using Vite, ensuring a fast and efficient user interface. For navigation, React Router enhances the user experience by providing seamless page transitions. The backend is powered by Node.js and Express, offering a reliable foundation for API development. MongoDB serves as the database, ensuring efficient and scalable data storage, while Firebase handles authentication for secure user management. Axios is used for smooth communication between the frontend and backend.",
   paragraph_3: "This POS system is not only a practical tool for managing products and orders but also a valuable learning experience. By integrating various technologies and implementing CRUD operations, the project demonstrates the power of full-stack development. It serves as a testament to the effectiveness of combining React with modern backend tools to deliver a dynamic and user-friendly application.",
+  role: "",
+  duration: "3 months"
+}
+,
+
+{
+  id: "flutter_practice1",
+  title: "Flutter Expenz App",
+  githubLink: "https://github.com/AkelaDumindu/spring_boot_pos_crud.git",
+  typeName: "Individual Project | Practice",
+  demoVideo: "",
+  // screenshots: ['../images/portfolio/eventvibe/eventvibe_1.png', '../images/portfolio/eventvibe/eventvibe_2.png', '../images/portfolio/eventvibe/eventvibe_3.png', '../images/portfolio/eventvibe/eventvibe_4.png', '../images/portfolio/eventvibe/eventvibe_5.png', '../images/portfolio/eventvibe/eventvibe_6.png', '../images/portfolio/eventvibe/eventvibe_7.png', '../images/portfolio/eventvibe/eventvibe_8.png', '../images/portfolio/eventvibe/eventvibe_9.png', '../images/portfolio/eventvibe/eventvibe_10.png', '../images/portfolio/eventvibe/eventvibe_11.png', '../images/portfolio/eventvibe/eventvibe_12.png', '../images/portfolio/eventvibe/eventvibe_13.png', '../images/portfolio/eventvibe/eventvibe_14.png'],
+  category: "practice",
+  url: "../images/portfolio/expenz_mock.png",
+  des: "Expenz is a Flutter app for managing finances, featuring categorized expenses, income tracking, onboarding screens, and graphical analysis.",
+  
+  techStack: [
+      { name: "Spring Boot", logo: "../images/skillImages/react.png" },
+  ],
+  // teamMembers: ["Mevin Perera", "Kushan Andarawewa", "Ishani Samaraweera", "Shabeeb Ishque"],
+  paragraph_1: "Expenz is a Flutter-based mobile application designed to provide users with a streamlined way to manage their finances. Built as a practice project, the app explores various aspects of Flutter development, including working with device data storage, creating user-friendly onboarding screens, and visualizing data through graphs. The application leverages shared preferences for secure and efficient data storage, ensuring user data is accessible and persistent across sessions. The onboarding process was carefully designed to deliver a clear and intuitive introduction to the app's features, making it user-friendly and accessible.",
+  paragraph_2: "The core functionality of Expenz revolves around tracking and categorizing financial activities. Users can log in with their credentials and set up a personalized profile. Once logged in, users can record and manage their expenses and incomes, categorizing them into predefined groups such as subscriptions, health, food, and transport. This categorization helps users gain a clear understanding of their spending habits and income streams. The app also provides detailed views of all transactions, ensuring users can track their financial activities effectively.",
+  paragraph_3: "A standout feature of Expenz is its ability to represent financial data graphically. The app visualizes income and expense trends through interactive graphs, enabling users to analyze their financial patterns effortlessly. These graphical representations provide valuable insights, empowering users to make informed decisions about their finances. With Expenz, managing money becomes more organized, intuitive, and insightful, making it a practical and valuable tool for personal financial management.",
   role: "",
   duration: "3 months"
 }
@@ -384,9 +433,9 @@ export const portfolioData = [
       // { name: 'CSS', logo: '../images/skillImages/css.png' }
     ],
     // teamMembers: ['Mevin Perera', 'Kushan Andarawewa', 'Ishani Samaraweera', 'Shabeeb Ishque'],
-    // paragraph_1:"EventVibe is a pioneering web application designed to transform the event planning process into a seamless, efficient, and collaborative experience. Developed by a team of four skilled developers, the project leverages a comprehensive technology stack, including HTML, CSS, JavaScript, and Bootstrap for the front-end design, and PHP with MySQL for robust back-end functionality and database management. The platform aspires to become a dynamic online marketplace that bridges the gap between event planners and clients, offering a streamlined approach to finding and managing event services.",
-    // paragraph_2:"At its core, EventVibe provides a user-friendly and responsive interface that adapts to various devices, ensuring an optimal browsing experience for all users. The platform facilitates direct interaction between event planners and clients, powered by a well-structured back-end system using PHP. This dynamic connectivity simplifies the booking process while enabling event planners to showcase their expertise effectively. With MySQL ensuring secure and efficient data handling, the system guarantees reliability for user profiles, service listings, and booking management.",
-    // paragraph_3:"EventVibe embodies a mission to enhance the event planning experience by offering a centralized, collaborative platform for clients and service providers. Through its innovative features and intuitive design, the project envisions empowering event planners to expand their reach and enabling clients to find the perfect match for their unique event needs. This collaborative endeavor not only showcases the technical expertise of its developers but also addresses the evolving landscape of event planning in today’s digital age.",
+    paragraph_1:"This application is a practice project focused on mastering Flutter state management techniques. The primary goal of this project was to explore and implement effective state management strategies using the Flutter framework and packages such as Provider. The application is designed to offer a smooth and responsive user experience by ensuring real-time updates for cart and favorite functionalities, providing a practical demonstration of state management in action.",
+    paragraph_2:"The application includes essential features like adding items to a cart and managing favorite items. Users can seamlessly add products to their cart, and the app ensures the cart's content is updated in real time. Similarly, users can mark items as favorites, offering a personalized shopping experience. These features highlight the dynamic and interactive capabilities that state management can bring to Flutter applications.",
+    paragraph_3:"By focusing on Flutter's state management tools, this project serves as an excellent learning experience in managing application states effectively. It demonstrates how to maintain state consistency across different widgets and ensure data synchronization throughout the app. This project is a testament to the potential of Flutter for developing responsive and user-friendly applications while deepening the understanding of state management practices.  ",
     role: 'Full Stack Development',
     duration: '3 months',
   },

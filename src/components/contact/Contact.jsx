@@ -40,7 +40,7 @@ const Contact = () => {
 
     // <section className="section">
       <div className="container">
-        <div className="contact-outer mb-24">
+        <div className="contact-outer ">
 
         <div className="flex flex-col items-center mb-5">
             <h2 className="headline-2">Contact Me</h2>
@@ -61,7 +61,11 @@ const Contact = () => {
   <input type="submit" name="submit" value="Send e-mail" className="submit" />
 </form>
 
+<p className="copyright mt-14 mb-8">&copy; 2024 Akela. All Rights Reserved</p>
+
       </div>
+
+      
         </div>
 
      
