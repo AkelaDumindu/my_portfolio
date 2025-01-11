@@ -62,7 +62,7 @@
   font-size: 1.25rem;
 }
 
-/* Media query for screens 480px or smaller */
+
 @media (max-width: 480px) {
   .resume-text {
     display: none;
@@ -70,7 +70,7 @@
 
   .resume-icon {
     font-size: 2rem;
-    margin-right: 0; /* Center the icon if text is hidden */
+    margin-right: 0;
   }
 
   .resumeLi {

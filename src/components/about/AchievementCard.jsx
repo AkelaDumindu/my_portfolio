@@ -36,10 +36,10 @@ const AchievementCard = ({ title, des, imageIcon, certificateImages }) => {
                 <img src={imageIcon} alt="Achievement Logo" className="w-20 h-auto object-contain" />
               </div>
               <div className="flex flex-col gap-6">
-                <h2 className="text-xl md:text-2xl font-titleFont font-bold text-gray-300">
+                <h2 className="text-xl md:text-2xl font-titleFont font-bold text-white">
                   {title}
                 </h2>
-                <p className="base">{des}</p>
+                <p className="base text-gray-300">{des}</p>
                 <button
                   className="text-2xl text-designColor"
                   onClick={openModal}
