@@ -3,6 +3,7 @@ import Education from './Education';
 import Achievement from './Achievement';
 import Experience from "./Experience"
 import Volunteering from "./Volunteering"
+import { FaGraduationCap, FaBriefcase, FaTrophy, FaHandsHelping } from "react-icons/fa";
 import './resume.css';
 
 const Resume = () => {
@@ -13,22 +14,23 @@ const Resume = () => {
   return (
     <section id="resume" className="">
      
-      <div>
-        <ul className="resume-main w-full grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4">
+     <div>
+        <ul className="resume-main grid w-full xl:grid-cols-4">
           <li
             onClick={() =>
               setEducationData(true) &
               setAchievementData(false) &
-              setExperienceData(false) &    
+              setExperienceData(false) &
               setvoluntieringData(false)
             }
             className={`${
-              educationData
-                ? "click-resume"
-                : "border-transparent"
+              educationData ? "click-resume selected" : "border-transparent"
             } resume-ed resumeLi`}
           >
-            Education
+            <span className="resume-icon">
+              <FaGraduationCap />
+            </span>
+            <span className="resume-text">Education</span>
           </li>
           <li
             onClick={() =>
@@ -38,10 +40,13 @@ const Resume = () => {
               setvoluntieringData(false)
             }
             className={`${
-                achievementData ? "click-resume" : "border-transparent"
+              achievementData ? "click-resume selected" : "border-transparent"
             } resume-ex resumeLi`}
           >
-            Achievement
+            <span className="resume-icon">
+              <FaTrophy />
+            </span>
+            <span className="resume-text">Achievement</span>
           </li>
           <li
             onClick={() =>
@@ -51,12 +56,13 @@ const Resume = () => {
               setvoluntieringData(false)
             }
             className={`${
-              experienceData
-                ? "click-resume"
-                : "border-transparent"
+              experienceData ? "click-resume selected" : "border-transparent"
             } resume-ex resumeLi`}
           >
-            Experience
+            <span className="resume-icon">
+              <FaBriefcase />
+            </span>
+            <span className="resume-text">Experience</span>
           </li>
           <li
             onClick={() =>
@@ -66,12 +72,13 @@ const Resume = () => {
               setvoluntieringData(true)
             }
             className={`${
-              voluntieringData
-                ? "click-resume"
-                : "border-transparent"
+              voluntieringData ? "click-resume selected" : "border-transparent"
             } resume-v resumeLi`}
           >
-            Voluntering
+            <span className="resume-icon">
+              <FaHandsHelping />
+            </span>
+            <span className="resume-text">Volunteering</span>
           </li>
         </ul>
       </div>

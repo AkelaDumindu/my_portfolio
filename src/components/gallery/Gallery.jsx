@@ -9,7 +9,11 @@ import './gallery.css';
 const Gallery = () => {
   return (
     <section className="section-gallery">
+      <div className="my-gallery-name flex flex-col items-center mt-14">
+            <h2 className="headline-2 mb-0">My Gallery</h2>
+          </div>
       <div className="container">
+            
         <div className="gallery-section">
           <Swiper
             modules={[Pagination, Autoplay]} // Add Autoplay module here

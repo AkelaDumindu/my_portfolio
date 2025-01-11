@@ -108,6 +108,7 @@
 .filter-buttons .active {
   background-color: #38bdf8;
   color: #000;
+  font-weight: bold;
 }
 
 .see-more-container {

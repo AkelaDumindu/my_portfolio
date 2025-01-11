@@ -261,3 +261,14 @@
     border-radius: 14px;
   }
 }
+
+
+.my-gallery-name{
+  width: 75%;
+}
+
+@media (max-width: 768px){
+  .my-gallery-name{
+    width: 100%;
+  }
+}

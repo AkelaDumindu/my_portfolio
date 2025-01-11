@@ -21,7 +21,7 @@ const Navbar = () => {
 
   const handleMenuClick = (section) => {
     setActiveNav(section);
-    setSidebarActive(false);  // Close the sidebar when a menu item is clicked
+    setSidebarActive(false);  
   };
 
   return (

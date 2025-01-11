@@ -1,7 +1,7 @@
 .skill-section {
   margin-top: 5rem;
   width: 75%;
-  padding: 50px 10px 50px 50px;
+  
   border: 2px solid rgba(255, 255, 255, 0.5);
   border-radius: 30px;
   position: relative;
@@ -23,7 +23,7 @@
 .skill-card-outer {
   margin: 20px 0;
   height: 120px;
-  flex-direction: column;
+  
 }
 
 .label-outer {
@@ -35,6 +35,9 @@
 }
 
 @media (min-width: 768px) {
+  .skill-section{
+    padding: 50px 10px 50px 50px;
+  }
   .skill-card-outer {
     width: 120px;
   }
@@ -46,8 +49,50 @@
   }
 }
 
+@media (min-width: 481px){
+
+  .grid-container {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    gap: 16px; 
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    padding: 10px; 
+  }
+  
+  .skill-card-outer{
+    flex-direction: column;
+  }
+}
+
 @media (max-width: 480px) {
   .skill-section {
     margin-bottom: 25px;
   }
+
+  .skill-card-outer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    border: 1px solid;
+    padding: 10px 0;
+    height: auto;
+    width: 80%;
+    height: 100px;
+  }
+
+  .grid-container {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+  }
+
+  .label-outer{
+    padding: 0;
+  }
 }
+
+
