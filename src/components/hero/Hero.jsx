@@ -5,8 +5,21 @@ import { FaInstagramSquare } from "react-icons/fa";
 import JobRole from '../role/JobRole';
 import { RxDoubleArrowDown } from "react-icons/rx";
 import CV from "./cv/CV_Akela_Dumindu.pdf"
+import { useNavigate } from "react-router-dom";
 
 const Hero = () => {
+  const navigate = useNavigate();
+
+  const handleClick = () => {
+  
+    navigate("/homePage");
+    setTimeout(() => {
+      const portfolioSection = document.getElementById("portfolio");
+      if (portfolioSection) {
+        portfolioSection.scrollIntoView({ behavior: "smooth" });
+      }
+    }, 100); 
+  };
   return (
     <section id="home" className="lg:mt-4">
       <div className="container flex items-center lg:gap-10 relative">
@@ -42,7 +55,7 @@ const Hero = () => {
              <div className='scroll-card '>
              <button 
           className="scroll-button" 
-          onClick=""><RxDoubleArrowDown className="scroll-icon"/></button>
+          onClick={handleClick}><RxDoubleArrowDown className="scroll-icon"/></button>
              </div>
           
               

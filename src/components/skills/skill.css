@@ -8,11 +8,10 @@
   background-color: transparent;
 }
 
-
 .skill-section::after {
   content: "";
   position: absolute;
-  top: -4px; 
+  top: -4px;
   left: -4px;
   right: -4px;
   bottom: -4px;
@@ -23,7 +22,6 @@
 
 .skill-card-outer {
   margin: 20px 0;
-  width: 120px;
   height: 120px;
   flex-direction: column;
 }
@@ -34,4 +32,22 @@
 
 .section-gallery {
   margin-top: 25px;
+}
+
+@media (min-width: 768px) {
+  .skill-card-outer {
+    width: 120px;
+  }
+}
+
+@media (max-width: 768px) {
+  .skill-section {
+    margin-bottom: 25px;
+  }
+}
+
+@media (max-width: 480px) {
+  .skill-section {
+    margin-bottom: 25px;
+  }
 }

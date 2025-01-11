@@ -197,22 +197,21 @@ export const portfolioData = [
     title: "HerbaCommerce",
     githubLink:"https://github.com/AkelaDumindu/laravel_ecommerce_project.git",
     typeName: "Individual Project | web",
-    demoVideo:"../video/campinga-demo.mp4",
-    screenshots: ['../images/portfolio/eventvibe/eventvibe_1.png', '../images/portfolio/eventvibe/eventvibe_2.png', '../images/portfolio/eventvibe/eventvibe_3.png', '../images/portfolio/eventvibe/eventvibe_4.png', '../images/portfolio/eventvibe/eventvibe_5.png', '../images/portfolio/eventvibe/eventvibe_6.png', '../images/portfolio/eventvibe/eventvibe_7.png', '../images/portfolio/eventvibe/eventvibe_8.png', '../images/portfolio/eventvibe/eventvibe_9.png', '../images/portfolio/eventvibe/eventvibe_10.png', '../images/portfolio/eventvibe/eventvibe_11.png', '../images/portfolio/eventvibe/eventvibe_12.png', '../images/portfolio/eventvibe/eventvibe_13.png', '../images/portfolio/eventvibe/eventvibe_14.png'],
+    demoVideo:"../video/herbacommerce-demo.mp4",
+    screenshots: ['../images/portfolio/herbacommerce/herba1.png', '../images/portfolio/herbacommerce/herba2.png', '../images/portfolio/herbacommerce/herba3.png','../images/portfolio/herbacommerce/herba4.png','../images/portfolio/herbacommerce/herba5.png','../images/portfolio/herbacommerce/herba6.png','../images/portfolio/herbacommerce/herba7.png','../images/portfolio/herbacommerce/herba8.png','../images/portfolio/herbacommerce/herba9.png',],
     category: "web",
     url: "../images/portfolio/herbacommerce_mock.png",
-    des: "EventVibe is an online marketplace connecting event planners and clients, featuring responsive design, seamless booking, and efficient data management.",
+    des: "HerbaCommerce is an online store specializing in plants, offering tea, vegetables, fruits, and flowers, with unique tea categories and discounts.",
     techStack: [
-      { name: 'PHP', logo: '../images/skillImages/php.png' },
-      { name: 'HTML', logo: '../images/skillImages/html.png' },
+      { name: 'Laravel', logo: '../images/skillImages/laravel.png' },
       { name: 'MySql', logo: '../images/skillImages/mysql.png' },
-      { name: 'CSS', logo: '../images/skillImages/css.png' }
+      { name: 'Tailwind', logo: '../images/skillImages/tailwind.png' }
     ],
-    // teamMembers: ['Mevin Perera', 'Kushan Andarawewa', 'Ishani Samaraweera', 'Shabeeb Ishque'],
-    paragraph_1:"EventVibe is a pioneering web application designed to transform the event planning process into a seamless, efficient, and collaborative experience. Developed by a team of four skilled developers, the project leverages a comprehensive technology stack, including HTML, CSS, JavaScript, and Bootstrap for the front-end design, and PHP with MySQL for robust back-end functionality and database management. The platform aspires to become a dynamic online marketplace that bridges the gap between event planners and clients, offering a streamlined approach to finding and managing event services.",
-    paragraph_2:"At its core, EventVibe provides a user-friendly and responsive interface that adapts to various devices, ensuring an optimal browsing experience for all users. The platform facilitates direct interaction between event planners and clients, powered by a well-structured back-end system using PHP. This dynamic connectivity simplifies the booking process while enabling event planners to showcase their expertise effectively. With MySQL ensuring secure and efficient data handling, the system guarantees reliability for user profiles, service listings, and booking management.",
-    paragraph_3:"EventVibe embodies a mission to enhance the event planning experience by offering a centralized, collaborative platform for clients and service providers. Through its innovative features and intuitive design, the project envisions empowering event planners to expand their reach and enabling clients to find the perfect match for their unique event needs. This collaborative endeavor not only showcases the technical expertise of its developers but also addresses the evolving landscape of event planning in today’s digital age.",
-    role: 'Full Stack Development',
+    teamMembers: [''],
+    paragraph_1:"HerbaCommerce is a unique e-commerce platform dedicated to selling a wide variety of plants, including tea plants, rubber plants, vegetables, fruits, and ornamental home plants such as flowers. With a special focus on tea plants, the platform categorizes tea into diverse options like 20/25, 20/23, and 20/26, providing customers with a rich assortment to choose from. As an individual project, HerbaCommerce showcases a seamless integration of advanced technologies to deliver an exceptional user experience while catering to plant lovers and gardeners alike.",
+    paragraph_2:"Developed using Laravel 11, Livewire 3, MySQL, and Tailwind CSS, HerbaCommerce is designed to be both robust and user-friendly. The platform features an admin panel that allows administrators to manually manage plant categories and products, ensuring a well-organized and streamlined database. On the user side, customers can browse all available plants along with their pricing. Registered users can log in to add products to their cart and make purchases. Additionally, the platform offers exclusive discounts and coupons for registered users, enhancing customer satisfaction and encouraging repeat visits.",
+    paragraph_3:"HerbaCommerce emphasizes simplicity and accessibility for its users. The application ensures smooth navigation and a visually appealing design, powered by Tailwind CSS. Its robust backend, supported by MySQL, provides a secure and scalable foundation for managing large volumes of products and transactions. By focusing on a niche market and offering a comprehensive catalog of plants, HerbaCommerce bridges the gap between plant sellers and buyers, making it a versatile and innovative solution for the growing demand in the e-commerce space.",
+    role: '',
     duration: '3 months',
   },
 
@@ -265,6 +264,36 @@ export const portfolioData = [
     role: 'Full Stack Development',
     duration: '3 months',
   },
+
+  {
+    id: "react_practice1",
+    title: "Small POS System",
+    githubLink: "https://github.com/AkelaDumindu/React_Simple_POS_System.git",
+    typeName: "Individual Project | Practice",
+    demoVideo: "",
+    // screenshots: ['../images/portfolio/eventvibe/eventvibe_1.png', '../images/portfolio/eventvibe/eventvibe_2.png', '../images/portfolio/eventvibe/eventvibe_3.png', '../images/portfolio/eventvibe/eventvibe_4.png', '../images/portfolio/eventvibe/eventvibe_5.png', '../images/portfolio/eventvibe/eventvibe_6.png', '../images/portfolio/eventvibe/eventvibe_7.png', '../images/portfolio/eventvibe/eventvibe_8.png', '../images/portfolio/eventvibe/eventvibe_9.png', '../images/portfolio/eventvibe/eventvibe_10.png', '../images/portfolio/eventvibe/eventvibe_11.png', '../images/portfolio/eventvibe/eventvibe_12.png', '../images/portfolio/eventvibe/eventvibe_13.png', '../images/portfolio/eventvibe/eventvibe_14.png'],
+    category: "practice",
+    url: "../images/portfolio/flutterstatemanagement_mock.jpg",
+    des: "A simple POS system built with React and Vite, featuring CRUD operations and user authentication. Check out the .",
+    webUrl:"https://github.com/AkelaDumindu/React_Simple_POS_System.git",
+    
+    techStack: [
+        { name: "React", logo: "../images/skillImages/react.png" },
+        { name: "Type Script", logo: "../images/skillImages/ts.png" },
+        { name: "CSS", logo: "../images/skillImages/mongodb.png" },
+        { name: "Node Js", logo: "../images/skillImages/nodeJs.png" },
+        { name: "Firebase", logo: "../images/skillImages/firebase.png" },
+        { name: "Bootstrap", logo: "../images/skillImages/bootstrap.png" },
+        { name: "Express", logo: "../images/skillImages/express.png" }
+    ],
+    // teamMembers: ["Mevin Perera", "Kushan Andarawewa", "Ishani Samaraweera", "Shabeeb Ishque"],
+    paragraph_1: "This project is a simple Point of Sale (POS) system designed to streamline inventory and order management. It features user authentication, allowing users to securely register and log in using their email and password. Once authenticated, users can access a robust set of functionalities, including adding, updating, deleting, and viewing products. The system also tracks user orders, offering a centralized view of all orders along with graphical representations of data for better decision-making and analysis.",
+    paragraph_2: "The frontend of the system is built with React using Vite, ensuring a fast and efficient user interface. For navigation, React Router enhances the user experience by providing seamless page transitions. The backend is powered by Node.js and Express, offering a reliable foundation for API development. MongoDB serves as the database, ensuring efficient and scalable data storage, while Firebase handles authentication for secure user management. Axios is used for smooth communication between the frontend and backend.",
+    paragraph_3: "This POS system is not only a practical tool for managing products and orders but also a valuable learning experience. By integrating various technologies and implementing CRUD operations, the project demonstrates the power of full-stack development. It serves as a testament to the effectiveness of combining React with modern backend tools to deliver a dynamic and user-friendly application.",
+    role: "",
+    duration: "3 months"
+}
+,
 
 
   {
@@ -381,7 +410,7 @@ const Portfolio = () => {
             ))}
           </div>
 
-          {/* See More / Show Less Button */}
+          
           {filteredProjects.length > 4 && (
             <div className="see-more-container">
               {visibleCount < filteredProjects.length ? (

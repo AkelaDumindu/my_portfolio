@@ -30,13 +30,13 @@ const App = () => {
   return (
     <Router>
       <Routes>
-        {/* Default route redirects to loading page */}
+        
         <Route path="/" element={<Navigate to="/loading" />} />
 
-        {/* Loading page route */}
+        
         <Route path="/loading" element={<Loading />} />
 
-        {/* Main application layout */}
+        
         <Route
           path="/homePage"
           element={
@@ -65,7 +65,7 @@ const App = () => {
           }
         />
 
-        {/* Dynamic project details route */}
+       
         <Route
           path="/project/:id"
           element={
