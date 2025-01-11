@@ -103,6 +103,30 @@ export const portfolioData = [
   },
 
   {
+    id: "portfolio_web",
+    title: "My Portfolio",
+    githubLink:"https://github.com/AkelaDumindu/flutter_stateManagement.git",
+    typeName: "Individual Project | Web",
+    demoVideo:"",
+    // screenshots: ['../images/portfolio/eventvibe/eventvibe_1.png', '../images/portfolio/eventvibe/eventvibe_2.png', '../images/portfolio/eventvibe/eventvibe_3.png', '../images/portfolio/eventvibe/eventvibe_4.png', '../images/portfolio/eventvibe/eventvibe_5.png', '../images/portfolio/eventvibe/eventvibe_6.png', '../images/portfolio/eventvibe/eventvibe_7.png', '../images/portfolio/eventvibe/eventvibe_8.png', '../images/portfolio/eventvibe/eventvibe_9.png', '../images/portfolio/eventvibe/eventvibe_10.png', '../images/portfolio/eventvibe/eventvibe_11.png', '../images/portfolio/eventvibe/eventvibe_12.png', '../images/portfolio/eventvibe/eventvibe_13.png', '../images/portfolio/eventvibe/eventvibe_14.png'],
+    category: "web",
+    url: "../images/portfolio/my_portfolio.png",
+    des: "This is the small application that focus on flutter practice to flutter state management properly",
+    techStack: [
+      { name: 'React', logo: '../images/skillImages/react.png' },
+      { name: 'Node.js', logo: '../images/skillImages/js.png' },
+      { name: 'Tailwind', logo: '../images/skillImages/tailwind.png' },
+      { name: 'css', logo: '../images/skillImages/css.png' },
+    ],
+    teamMembers: [],
+    paragraph_1:"Creating a personal portfolio website is an exciting way to showcase skills and projects, and this portfolio does just that with modern tools and technologies. Built using React and Vite, the website offers a fast and seamless browsing experience. React’s component-based structure makes the application scalable and easy to maintain, while Vite ensures rapid development with its blazing-fast build tool. This project serves as a comprehensive platform to present my technical expertise, project accomplishments, and professional background.",
+    paragraph_2:"For styling, the portfolio employs both CSS and Tailwind CSS. The combination allows for a perfect balance of customization and efficiency. Tailwind CSS provides utility-first classes for rapid design, making it easier to maintain consistency throughout the website, while CSS adds fine-tuned details to elevate the visual appeal. The responsive design ensures that the website is accessible and visually engaging across all devices, from desktops to smartphones, providing a user-friendly experience.",
+    paragraph_3:"The portfolio includes a showcase of projects, skills, and achievements, offering visitors an interactive and dynamic way to explore my work. JavaScript enhances the interactivity, enabling smooth animations and transitions that engage the audience. The result is a polished and professional platform that highlights not just my technical abilities but also my attention to detail and design sense, leaving a lasting impression on viewers and potential collaborators.",
+    role: 'Full Stack Development',
+    duration: '3 months',
+  },
+
+  {
     id: "Smart_tution_web",
     title: "Smart Tution Web",
     typeName: "Group Project | Web Site",
@@ -302,7 +326,7 @@ export const portfolioData = [
   demoVideo: "",
   // screenshots: ['../images/portfolio/eventvibe/eventvibe_1.png', '../images/portfolio/eventvibe/eventvibe_2.png', '../images/portfolio/eventvibe/eventvibe_3.png', '../images/portfolio/eventvibe/eventvibe_4.png', '../images/portfolio/eventvibe/eventvibe_5.png', '../images/portfolio/eventvibe/eventvibe_6.png', '../images/portfolio/eventvibe/eventvibe_7.png', '../images/portfolio/eventvibe/eventvibe_8.png', '../images/portfolio/eventvibe/eventvibe_9.png', '../images/portfolio/eventvibe/eventvibe_10.png', '../images/portfolio/eventvibe/eventvibe_11.png', '../images/portfolio/eventvibe/eventvibe_12.png', '../images/portfolio/eventvibe/eventvibe_13.png', '../images/portfolio/eventvibe/eventvibe_14.png'],
   category: "practice",
-  url: "../images/portfolio/flutterstatemanagement_mock.jpg",
+  url: "../images/portfolio/angular_pos.jpg",
   des: "A simple POS system built with React and Vite, featuring CRUD operations and user authentication. Check out the .",
   
   techStack: [
@@ -327,7 +351,7 @@ export const portfolioData = [
   demoVideo: "",
   // screenshots: ['../images/portfolio/eventvibe/eventvibe_1.png', '../images/portfolio/eventvibe/eventvibe_2.png', '../images/portfolio/eventvibe/eventvibe_3.png', '../images/portfolio/eventvibe/eventvibe_4.png', '../images/portfolio/eventvibe/eventvibe_5.png', '../images/portfolio/eventvibe/eventvibe_6.png', '../images/portfolio/eventvibe/eventvibe_7.png', '../images/portfolio/eventvibe/eventvibe_8.png', '../images/portfolio/eventvibe/eventvibe_9.png', '../images/portfolio/eventvibe/eventvibe_10.png', '../images/portfolio/eventvibe/eventvibe_11.png', '../images/portfolio/eventvibe/eventvibe_12.png', '../images/portfolio/eventvibe/eventvibe_13.png', '../images/portfolio/eventvibe/eventvibe_14.png'],
   category: "practice",
-  url: "../images/portfolio/flutterstatemanagement_mock.jpg",
+  url: "../images/portfolio/springboot.jpg",
   des: "A simple POS system built with React and Vite, featuring CRUD operations and user authentication. Check out the .",
   
   techStack: [
@@ -365,8 +389,10 @@ export const portfolioData = [
     // paragraph_3:"EventVibe embodies a mission to enhance the event planning experience by offering a centralized, collaborative platform for clients and service providers. Through its innovative features and intuitive design, the project envisions empowering event planners to expand their reach and enabling clients to find the perfect match for their unique event needs. This collaborative endeavor not only showcases the technical expertise of its developers but also addresses the evolving landscape of event planning in today’s digital age.",
     role: 'Full Stack Development',
     duration: '3 months',
-  }
+  },
 
+
+ 
 ];
 
 const Portfolio = () => {

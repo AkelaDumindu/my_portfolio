@@ -296,6 +296,18 @@
         font-size: 0.5rem;
       }
     }
+
+    .my_title_head{
+      display: block;
+    }
+
+    
+.title_box{
+  width: 100%;
+}
+.title_box h3{
+  margin: 1 5px 0;
+}
   }
 
   @media screen and (max-width: 480px) {
@@ -338,4 +350,24 @@
       }
     }
   }
+}
+
+.my_title_head{
+
+  display: flex;
+}
+
+.avatar_box{
+
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+.title_box{
+  width: 70%;
+}
+
+.title_box h3{
+  margin: 25px 0;
 }

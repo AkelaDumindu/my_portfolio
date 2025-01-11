@@ -30,11 +30,23 @@ const Hero = () => {
           {/* <h3 className="headline-1 max-w-[20ch] sm:max-w-[20ch] lg:max-w-[20ch] mt-0 mb-8 lg:mb-10">
             Driven to transform ideas into impactful software solutions.
           </h3> */}
-          <h3 className="headline-1 max-w-[20ch] sm:max-w-[20ch] lg:max-w-[20ch] ">
+          <div className='my_title_head'>
+           
+           <div className='title_box'>
+           <h3 className="headline-1 max-w-[20ch] sm:max-w-[20ch] lg:max-w-[20ch] ">
+            
             Hey, I'm Akela
           </h3>
-
           <JobRole />
+           </div>
+          <div className='avatar_box'>
+          <img src="../images/fav/my_avatar.png" className='w-40 h-40' alt="avatar" />
+          </div>
+          
+          </div>
+          
+
+          
 
           <h4 className="hero-sub-profile text-[#a1a1aa]">
           I tackle real-world challenges with robust, scalable code to bring visionary ideas to life. With a passion for innovation and a focus on delivering impactful solutions, I craft digital experiences that inspire and drive success. Fueled by creativity and a commitment to excellence, I transform challenges into opportunities. Let’s embark on this exciting journey together and turn possibilities into realities!
