@@ -10,16 +10,16 @@ const ResumeCard = ({title,subTitle,year,logo}) => {
         </span>
       </div>
       <div className="my-container">
-      <div class="inner-resume-card">
+      <div className="inner-resume-card">
           
             <div className='inner-resume-card-info'>
-            <h1 class="title">
+            <h1 className="title">
               {title}
             </h1>
-            <h2 class="sub-title">
+            <h2 className="sub-title">
               {subTitle}
             </h2>
-            <h3 class="sub-title">
+            <h3 className="sub-title">
               {year}
             </h3>
             </div>  

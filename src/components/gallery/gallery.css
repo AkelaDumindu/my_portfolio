@@ -32,69 +32,69 @@
 
 .slide-1 {
   background: url("../images/galleryImages/1.jpeg") no-repeat center / cover;
-  width: 600px; /* Ensure it takes up the full width of the parent */
-  height: 520px; /* Ensure it takes up the full height of the parent */
+  width: 600px;
+  height: 520px;
   position: relative;
 }
 .slide-2 {
   background: url("../images/galleryImages/2.jpeg") no-repeat 35% / cover;
-  width: 600px; /* Ensure it takes up the full width of the parent */
-  height: 520px; /* Ensure it takes up the full height of the parent */
+  width: 600px;
+  height: 520px;
   position: relative;
 }
 .slide-3 {
   background: url("../images/galleryImages/8.jpg") no-repeat center center /
     cover;
-  width: 600px; /* Ensure it takes up the full width of the parent */
-  height: 520px; /* Ensure it takes up the full height of the parent */
-  position: relative; /* To ensure positioning is relative to the parent container */
+  width: 600px;
+  height: 520px;
+  position: relative;
 }
 .slide-4 {
   background: url("../images/galleryImages/4.JPG") no-repeat center center /
     cover;
-  width: 600px; /* Ensure it takes up the full width of the parent */
-  height: 520px; /* Ensure it takes up the full height of the parent */
-  position: relative; /* To ensure positioning is relative to the parent container */
+  width: 600px;
+  height: 520px;
+  position: relative;
 }
 
 .slide-5 {
   background: url("../images/galleryImages/5.jpg") no-repeat center center /
     cover;
-  width: 600px; /* Ensure it takes up the full width of the parent */
-  height: 520px; /* Ensure it takes up the full height of the parent */
-  position: relative; /* To ensure positioning is relative to the parent container */
+  width: 600px;
+  height: 520px;
+  position: relative;
 }
 
 .slide-6 {
   background: url("../images/galleryImages/6.jpeg") no-repeat center center /
     cover;
-  width: 600px; /* Ensure it takes up the full width of the parent */
-  height: 520px; /* Ensure it takes up the full height of the parent */
-  position: relative; /* To ensure positioning is relative to the parent container */
+  width: 600px;
+  height: 520px;
+  position: relative;
 }
 
 .slide-7 {
   background: url("../images/galleryImages/7.jpg") no-repeat center center /
     cover;
-  width: 600px; /* Ensure it takes up the full width of the parent */
-  height: 520px; /* Ensure it takes up the full height of the parent */
-  position: relative; /* To ensure positioning is relative to the parent container */
+  width: 600px;
+  height: 520px;
+  position: relative;
 }
 
 .slide-8 {
   background: url("../images/galleryImages/3.jpeg") no-repeat center center /
     cover;
-  width: 600px; /* Ensure it takes up the full width of the parent */
-  height: 520px; /* Ensure it takes up the full height of the parent */
-  position: relative; /* To ensure positioning is relative to the parent container */
+  width: 600px;
+  height: 520px; 
+  position: relative;
 }
 
 .slide-9 {
   background: url("../images/galleryImages/9.jpg") no-repeat center center /
     cover;
-  width: 600px; /* Ensure it takes up the full width of the parent */
-  height: 520px; /* Ensure it takes up the full height of the parent */
-  position: relative; /* To ensure positioning is relative to the parent container */
+  width: 600px;
+  height: 520px;
+  position: relative;
 }
 
 .title {

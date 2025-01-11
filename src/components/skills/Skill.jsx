@@ -34,14 +34,17 @@ const skillItem = [
       label: 'PHP',
       desc: 'Programming Language'
     },
+
     {
-        imgSrc: '/images/skillImages/spring boot.png',
-        label: 'Spring Boot',
-        desc: 'Java Framework'
-      },
+      imgSrc: '/images/skillImages/sprigboot.png',
+      label: 'Spring Boot',
+      desc: 'Programming Language'
+    },
+
+   
     {
       imgSrc: '/images/skillImages/java.png',
-      label: 'java',
+      label: 'Java',
       desc: 'Progrmming Language'
     },
     {
@@ -56,7 +59,7 @@ const skillItem = [
     },
     {
       imgSrc: '/images/skillImages/laravel.png',
-      label: 'laravel',
+      label: 'Laravel',
       desc: 'PHP Framework'
     },
     {
@@ -68,7 +71,7 @@ const skillItem = [
 
       {
         imgSrc: '/images/skillImages/python.png',
-        label: ':Python',
+        label: 'Python',
         desc: 'Programming Language'
       },
 
@@ -89,7 +92,32 @@ const skillItem = [
         imgSrc: '/images/skillImages/mysql.png',
         label: 'Express',
         desc: 'Programming Language'
-      }
+      },
+
+      {
+        imgSrc: '/images/skillImages/spring.png',
+        label: 'Spring',
+        desc: 'Java Framework'
+      },
+      {
+        imgSrc: '/images/skillImages/figma (2).png',
+        label: 'Figma',
+        desc: 'Programming Language'
+      },
+
+      {
+        imgSrc: '/images/skillImages/aws (2).png',
+        label: 'AWS',
+        desc: 'Programming Language'
+      },
+
+      {
+        imgSrc: '/images/skillImages/bootstrap.png',
+        label: 'Bootstrap',
+        desc: 'Programming Language'
+      },
+
+
   ];
 
 const Skill = () => {
